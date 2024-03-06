@@ -6,6 +6,6 @@ I'm a Web Developer who is passionate about making contributing to open-source m
 
 ## Find me around the web 🌎: 
 <a href="https://tnit.info/" target="blank"><img align="left" width="150" height="150" src="https://github.com/toannguyenit/portfolio-v1/blob/main/public/hero/dev.png?raw=true"></a>
-- Learning in public on <a href="https://www.youtube.com/@toannvs" target="blank">Youtube</a> or <a href="https://www.tnit.info" target="blank">tnit.info</a> 📹 ✍🏾
+- Learning in public on <a href="https://www.youtube.com/@toannvs" target="blank">Youtube</a> or <a href="https://tnit.info/" target="blank">tnit.info</a> 📹 ✍🏾
 - Sharing updates on <a href="https://www.linkedin.com/in/toan-nguyen-b667422b1/" target="blank">LinkedIn</a> 💼
 
