@@ -1,7 +1,7 @@
 # Hi, I'm Toan Nguyen 👋🏾 👩🏾‍💻
 
 <img src="https://github.com/toannguyenit/portfolio-v1/blob/main/public/hero/bg2.png?raw=true" alt="banner">
-I'm a Web Developer who is passionate about making contributing to open-source more approachable, creating technology to elevate people, and building community. Some technologies I enjoy working with include JavaPHP(RESTful APIs), ReactJS, VueJs  
+I'm a Web Developer who is passionate about making contributing to open-source more approachable, creating technology to elevate people, and building community. Some technologies I enjoy working with include Java-PHP (RESTful APIs), ReactJS, VueJs  
 
 
 ## Find me around the web 🌎: 
