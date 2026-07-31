@@ -9,15 +9,15 @@
 
 - 🤝 I’m looking for help with **Improving my English language skills and enhancing my programming expertise.**
 
-- 👨‍💻 All of my projects are available at [https://tnit.id.vn/](https://tnit.id.vn/)
+- 👨‍💻 All of my projects are available at [https://toannguyenit.com/](https://toannguyenit.com/)
 
-- 📝 I regularly write articles on [https://tnit.id.vn/](https://tnit.id.vn/)
+- 📝 I regularly write articles on [https://toannguyenit.com/](https://toannguyenit.com/)
 
 - 💬 Ask me about **I’m proficient in Java, PHP, and JavaScript. Along with experience in using frameworks like Spring Boot, Laravel, and React**
 
-- 📫 How to reach me **https://tnit.id.vn/**
+- 📫 How to reach me **https://toannguyenit.com/**
 
-- 📄 Know about my experiences [https://tnit.id.vn/](https://tnit.id.vn/)
+- 📄 Know about my experiences [https://toannguyenit.com/](https://toannguyenit.com/)
 
 - ⚡ Fun fact **My work motto is to always keep learning and working well with others. I can handle pressure, quickly learn new technologies, and solve problems proactively**
 
