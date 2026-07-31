@@ -1,135 +1,87 @@
-<h1 align="center">Hi 👋, I'm toannguyenit</h1>
-<h3 align="center">A passionate Java backend developer from Ho Chi Minh, Vietnam</h3>
+<div align="center">
 
-- 🔭 I’m currently working on **A preschool management system project and a medical app for KTech College.**
+# Hi there, I'm Nguyễn Võ Song Toàn 👋
 
-- 🌱 I’m currently learning **Golang program language and built a Microservice Project**
+<a href="https://toannguyenit.com/">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=Java+Backend+Developer;Microservices+%26+Cloud+Specialist;Building+Scalable+Web+Systems;Golang+%26+Spring+Boot+Enthusiast" alt="Typing SVG" />
+</a>
 
-- 👯 I’m looking to collaborate on **Web technology projects and knowledge exchange in software development.**
+📍 Ho Chi Minh City, Vietnam  
+🌐 [toannguyenit.com](https://toannguyenit.com/) | 📧 Contact via Website / LinkedIn
 
-- 🤝 I’m looking for help with **Improving my English language skills and enhancing my programming expertise.**
+[![Website](https://img.shields.io/badge/Website-10B981?style=for-the-badge&logo=google-chrome&logoColor=white)](https://toannguyenit.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nguyenvosongtoan/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/user6628i/)
+[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/profile/toannguyen_hcmu1)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@nguyenvosongtoan)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/nguyenvosongtoan)
 
-- 👨‍💻 All of my projects are available at [https://toannguyenit.com/](https://toannguyenit.com/)
+---
 
-- 📝 I regularly write articles on [https://toannguyenit.com/](https://toannguyenit.com/)
+</div>
 
-- 💬 Ask me about **I’m proficient in Java, PHP, and JavaScript. Along with experience in using frameworks like Spring Boot, Laravel, and React**
+## 👨‍💻 About Me
 
-- 📫 How to reach me **https://toannguyenit.com/**
+A dedicated software engineer specializing in high-performance backend systems, RESTful APIs, and modern web architectures. Focused on writing clean, maintainable code, solving complex technical problems, and continuously evolving with industry standards.
 
-- 📄 Know about my experiences [https://toannguyenit.com/](https://toannguyenit.com/)
+- 🔭 **Currently Building:** Enterprise Preschool Management System & KTech College Medical App.
+- 🌱 **Currently Exploring:** **Go (Golang)**, Distributed Systems & **Microservices Architecture**.
+- 👯 **Open for Collaboration:** Open-source projects, web application architecture, and knowledge sharing.
+- ⚡ **Engineering Mindset:** *"Clean code, scalable architecture, proactive problem-solving, and continuous self-improvement."*
 
-- ⚡ Fun fact **My work motto is to always keep learning and working well with others. I can handle pressure, quickly learn new technologies, and solve problems proactively**
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/nguyenvosongtoan/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/nguyenvosongtoan/" height="30" width="40" /></a>
-<a href="https://www.facebook.com/nguyenvosongtoan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/nguyenvosongtoan" height="30" width="40" /></a>
-<a href="https://youtube.com/@nguyenvosongtoan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://youtube.com/@nguyenvosongtoan" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/profile/toannguyen_hcmu1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/profile/toannguyen_hcmu1" height="30" width="40" /></a>
-<a href="https://leetcode.com/u/user6628i/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/user6628i/" height="30" width="40" /></a>
+## ⚡ Dynamic Tech Stack & Skills Arsenal
+
+<div align="center">
+
+| Category | Interactive Dynamic Skill Icons |
+| :--- | :--- |
+| **☕ Languages & Core** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,go,php,py,js,ts&theme=dark" alt="Languages" /></a> |
+| **🚀 Frameworks & Libs** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=spring,laravel,react,nextjs,nestjs,vue&theme=dark" alt="Frameworks" /></a> |
+| **🗄️ Databases & Caching** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" alt="Databases" /></a> |
+| **☁️ DevOps & Tools** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,aws,nginx,git,figma&theme=dark" alt="Tools" /></a> |
+
+<br />
+
+### 🛠️ Full Interactive Tech Matrix
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,go,php,py,js,ts,spring,laravel,react,nextjs,nestjs,vue,postgres,mysql,mongodb,redis,docker,aws,nginx,git,figma&theme=dark&perline=7" alt="All Skills Grid" />
+  </a>
 </p>
 
-<h3 align="left">Programming Languages:</h3>
-<p align="left">
-    <a href="https://www.java.com" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.php.net" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
-    </a> 
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> 
-    </a>
-</p>
+</div>
 
-<h3 align="left">Frameworks:</h3>
-<p align="left">
-    <a href="https://spring.io/" target="_blank" rel="noreferrer"> 
-        <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> 
-    </a> 
-    <a href="https://laravel.com/" target="_blank" rel="noreferrer"> 
-        <img src="https://laravel.com/img/logomark.min.svg" alt="laravel" width="40" height="40"/> 
-    </a> 
-    <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
-    </a> 
-    <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> 
-        <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> 
-    </a> 
-    <a href="https://nestjs.com/" target="_blank" rel="noreferrer"> 
-        <img src="https://nestjs.com/logo-small-gradient.76616405.svg" alt="nestjs" width="40" height="40"/> 
-    </a> 
-    <a href="https://vuejs.org/" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/> 
-    </a>
-</p>
+---
 
-<h3 align="left">Database:</h3>
-<p align="left">
-    <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> 
-    </a> 
-    <a href="https://redis.io" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> 
-    </a>
-</p>
+## 🚀 Featured Projects & Experience
 
-<h3 align="left">Tools:</h3>
-<p align="left">
-    <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
-        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> 
-    </a> 
-    <a href="https://babeljs.io/" target="_blank" rel="noreferrer"> 
-        <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> 
-    </a> 
-    <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> 
-        <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> 
-        <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> 
-    </a> 
-    <a href="https://webpack.js.org" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/> 
-    </a>
-</p>
+| Project Name | Tech Stack | Highlights & Key Responsibilities | Status / Link |
+| :--- | :--- | :--- | :---: |
+| **🏫 Preschool Management System** | Java, Spring Boot, PostgreSQL, Docker, React | Developed core backend modules for student tracking, tuition billing, attendance, and role-based authorization. Optimized database queries for fast reporting. | `In Development` |
+| **🏥 KTech College Medical App** | Laravel, MySQL, Redis, Vue.js | Built RESTful APIs for online appointment scheduling, digital medical records, and automated SMS/email reminders. Integrated Redis caching for frequent queries. | `In Development` |
+| **⚡ Go Microservices Sandbox** | Go (Golang), gRPC, Docker, Redis, PostgreSQL | High-throughput microservice template featuring JWT authentication, gRPC inter-service communication, and Dockerized deployment. | `Personal Project` |
+| **🌐 Technical Portfolio & Blog** | Next.js, React, Tailwind CSS | Personal website showcasing software architecture guides, technical blogs, and personal project portfolios. | [toannguyenit.com](https://toannguyenit.com/) |
 
-<h3 align="left">Servers:</h3>
-<p align="left">
-    <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
-    <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a>
-    <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
-</p>
+---
 
+## 💡 Core Competencies & Expertise
 
+| Area | Focus & Technical Expertise |
+| :--- | :--- |
+| **🏗️ Backend Architecture** | Monolithic & Microservices architecture, RESTful API design, SOLID Principles, OOP design patterns. |
+| **⚡ Database & Performance** | Query optimization, indexing strategies, relational schema design (PostgreSQL/MySQL), Redis caching. |
+| **🐳 Container & Deployment** | Dockerizing application environments, NGINX reverse proxy configuration, CI/CD workflow basics. |
+| **🎯 Problem Solving & Soft Skills** | Adaptability under pressure, fast technology adoption, structured code reviews, effective teamwork. |
 
+---
 
+<div align="center">
 
+### 📝 Read my latest technical insights on [toannguyenit.com](https://toannguyenit.com/)
 
+*Thank you for taking the time to review my profile! Feel free to connect or drop a message.* ✨
+
+</div>
