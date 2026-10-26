@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgVibe" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#09090b" />
+      <stop offset="100%" stop-color="#0c0c10" />
+    </linearGradient>
+
+    <linearGradient id="cardSurface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#17171f" />
+      <stop offset="50%" stop-color="#121218" />
+      <stop offset="100%" stop-color="#15151c" />
+    </linearGradient>
+
+    <linearGradient id="isoTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#333342" />
+      <stop offset="100%" stop-color="#1f1f29" />
+    </linearGradient>
+    <linearGradient id="isoLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e27" />
+      <stop offset="100%" stop-color="#101016" />
+    </linearGradient>
+    <linearGradient id="isoRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15151c" />
+      <stop offset="100%" stop-color="#0a0a0e" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+
+    @keyframes floatCube {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes glyphBlink {
+      0%, 100% { opacity: 0.35; }
+      50% { opacity: 0.85; }
+    }
+
+    .cube-a { animation: floatCube 4s ease-in-out infinite; }
+    .cube-b { animation: floatCube 4s ease-in-out infinite 0.5s; }
+    .cube-c { animation: floatCube 4s ease-in-out infinite 1s; }
+    .glyph-anim { animation: glyphBlink 2.8s ease-in-out infinite; }
+  </style>
+
+  <!-- Carbon Background -->
+  <rect width="960" height="540" rx="16" fill="url(#bgVibe)" stroke="#262630" stroke-width="1.5" />
+
+  <!-- Architectural Frame & Dividers -->
+  <rect x="24" y="16" width="912" height="508" fill="none" stroke="#262630" stroke-width="1" />
+  <line x1="24" y1="88" x2="936" y2="88" stroke="#262630" stroke-width="1" />
+  <line x1="24" y1="478" x2="936" y2="478" stroke="#262630" stroke-width="1" />
+
+  <!-- Corner Crosshair '+' Marks -->
+  <g stroke="#636370" stroke-width="1.2">
+    <line x1="18" y1="88" x2="30" y2="88" /><line x1="24" y1="82" x2="24" y2="94" />
+    <line x1="930" y1="88" x2="942" y2="88" /><line x1="936" y1="82" x2="936" y2="94" />
+    <line x1="18" y1="478" x2="30" y2="478" /><line x1="24" y1="472" x2="24" y2="484" />
+    <line x1="930" y1="478" x2="942" y2="478" /><line x1="936" y1="472" x2="936" y2="484" />
+  </g>
+
+  <!-- Section Header -->
+  <g transform="translate(46, 44)">
+    <text x="0" y="0" fill="#a3a3ac" font-size="11.5" font-weight="600" letter-spacing="1.2" class="mono">
+      01 // AI-NATIVE ENGINEERING WORKFLOW (1+ YEAR PRODUCTION)
+    </text>
+    <text x="0" y="26" fill="#ededef" font-size="24" font-weight="700" letter-spacing="-0.6" class="sans">
+      Multi-Agent Vibecoding Matrix
+    </text>
+    <text x="868" y="24" text-anchor="end" fill="#a3a3ac" font-size="12" class="mono">
+      MODE: <tspan fill="#3dd68c" font-weight="700">SPEC-DRIVEN 3D</tspan> / VELOCITY: <tspan fill="#ededef" font-weight="700">3.5x</tspan>
+    </text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- CARD 01: CLAUDE (ARCHITECT & DEEP REASONING)              -->
+  <!-- ========================================================= -->
+  <g transform="translate(46, 110)">
+    <!-- 3D Extruded Depth Base -->
+    <rect x="5" y="7" width="276" height="346" rx="18" fill="#040406" stroke="#1f1f29" stroke-width="1" />
+    <!-- Main Dark Glass Surface -->
+    <rect x="0" y="0" width="276" height="346" rx="18" fill="url(#cardSurface)" stroke="#343442" stroke-width="1.2" />
+    <!-- Top Specular Rim -->
+    <line x1="20" y1="1" x2="256" y2="1" stroke="#636375" stroke-width="1" />
+
+    <!-- Eyebrow + Chip -->
+    <text x="22" y="32" fill="#a3a3ac" font-size="11" font-weight="600" letter-spacing="0.8" class="mono">AGENT 01 // ARCHITECT</text>
+    <rect x="190" y="17" width="66" height="22" rx="11" fill="#10291e" stroke="#3dd68c" stroke-width="1" />
+    <text x="223" y="32" text-anchor="middle" fill="#3dd68c" font-size="10.5" font-weight="700" class="mono">1+ YR</text>
+
+    <!-- Title -->
+    <text x="22" y="58" fill="#ededef" font-size="20" font-weight="700" letter-spacing="-0.3" class="sans">Claude (Anthropic)</text>
+
+    <!-- Sunken 3D + ASCII Viewport -->
+    <rect x="20" y="72" width="236" height="122" rx="12" fill="#08080b" stroke="#262632" stroke-width="1" />
+    <g font-size="10.5" class="mono" fill="#525263" letter-spacing="2">
+      <text x="30" y="92" class="glyph-anim">+ . : - = * # @ # * = - : . +</text>
+      <text x="30" y="182" class="glyph-anim">. : + # [ D D D _ S Q L ] # +</text>
+    </g>
+
+    <!-- Nested Group for 3D Cube so CSS transform never overrides translate(138, 126)! -->
+    <g transform="translate(138, 126)">
+      <g class="cube-a">
+        <!-- Cube Shadow -->
+        <polygon points="0,18 58,40 0,62 -58,40" fill="#030305" opacity="0.8" />
+        <!-- Cube Top -->
+        <polygon points="0,-36 58,-12 0,12 -58,-12" fill="url(#isoTop)" stroke="#f5c27a" stroke-width="1.4" />
+        <!-- Cube Left -->
+        <polygon points="-58,-12 0,12 0,48 -58,24" fill="url(#isoLeft)" stroke="#4a4a5a" stroke-width="1" />
+        <!-- Cube Right -->
+        <polygon points="58,-12 0,12 0,48 58,24" fill="url(#isoRight)" stroke="#343442" stroke-width="1" />
+        <text x="0" y="-8" text-anchor="middle" fill="#f5c27a" font-size="11" font-weight="700" class="mono">DDD * SQL</text>
+      </g>
+    </g>
+
+    <!-- Big Metric (.big) -->
+    <text x="22" y="232" fill="#ededef" font-size="32" font-weight="700" letter-spacing="-1" class="mono">95%</text>
+    <text x="102" y="225" fill="#d4d4dc" font-size="12.5" font-weight="600" class="sans">Spec-to-Architecture</text>
+    <text x="102" y="242" fill="#878791" font-size="11.5" class="mono">precision score</text>
+
+    <!-- Data Rows -->
+    <line x1="22" y1="256" x2="254" y2="256" stroke="#262632" stroke-width="1" />
+    <text x="22" y="274" fill="#878791" font-size="11" font-weight="600" class="mono">ROLE</text>
+    <text x="254" y="274" text-anchor="end" fill="#ededef" font-size="12.5" font-weight="600" class="sans">System Design &amp; DDD</text>
+
+    <line x1="22" y1="286" x2="254" y2="286" stroke="#262632" stroke-width="1" />
+    <text x="22" y="304" fill="#878791" font-size="11" font-weight="600" class="mono">CORE</text>
+    <text x="254" y="304" text-anchor="end" fill="#f5c27a" font-size="12" font-weight="600" class="mono">Go / Java / PostgreSQL</text>
+
+    <line x1="22" y1="316" x2="254" y2="316" stroke="#262632" stroke-width="1" />
+    <text x="22" y="334" fill="#878791" font-size="11" font-weight="600" class="mono">AUDIT</text>
+    <text x="254" y="334" text-anchor="end" fill="#a3a3ac" font-size="12" class="sans">Concurrency &amp; Security</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- CARD 02: OPENAI CODEX (HIGH-VELOCITY EXECUTION)           -->
+  <!-- ========================================================= -->
+  <g transform="translate(342, 110)">
+    <rect x="5" y="7" width="276" height="346" rx="18" fill="#040406" stroke="#1f1f29" stroke-width="1" />
+    <rect x="0" y="0" width="276" height="346" rx="18" fill="url(#cardSurface)" stroke="#343442" stroke-width="1.2" />
+    <line x1="20" y1="1" x2="256" y2="1" stroke="#636375" stroke-width="1" />
+
+    <text x="22" y="32" fill="#a3a3ac" font-size="11" font-weight="600" letter-spacing="0.8" class="mono">AGENT 02 // VELOCITY</text>
+    <rect x="190" y="17" width="66" height="22" rx="11" fill="#10291e" stroke="#3dd68c" stroke-width="1" />
+    <text x="223" y="32" text-anchor="middle" fill="#3dd68c" font-size="10.5" font-weight="700" class="mono">1+ YR</text>
+
+    <text x="22" y="58" fill="#ededef" font-size="20" font-weight="700" letter-spacing="-0.3" class="sans">OpenAI Codex</text>
+
+    <!-- Sunken 3D + ASCII Viewport -->
+    <rect x="20" y="72" width="236" height="122" rx="12" fill="#08080b" stroke="#262632" stroke-width="1" />
+    <g font-size="10.5" class="mono" fill="#525263" letter-spacing="2">
+      <text x="30" y="92" class="glyph-anim"># * + = - : . + . : - = + * #</text>
+      <text x="30" y="182" class="glyph-anim">+ . : [ A P I _ T E S T ] : .</text>
+    </g>
+
+    <!-- Nested Group for 3D Cube -->
+    <g transform="translate(138, 126)">
+      <g class="cube-b">
+        <polygon points="0,18 58,40 0,62 -58,40" fill="#030305" opacity="0.8" />
+        <polygon points="0,-36 58,-12 0,12 -58,-12" fill="url(#isoTop)" stroke="#7ee2b8" stroke-width="1.4" />
+        <polygon points="-58,-12 0,12 0,48 -58,24" fill="url(#isoLeft)" stroke="#4a4a5a" stroke-width="1" />
+        <polygon points="58,-12 0,12 0,48 58,24" fill="url(#isoRight)" stroke="#343442" stroke-width="1" />
+        <text x="0" y="-8" text-anchor="middle" fill="#7ee2b8" font-size="11" font-weight="700" class="mono">API * TEST</text>
+      </g>
+    </g>
+
+    <!-- Big Metric -->
+    <text x="22" y="232" fill="#ededef" font-size="32" font-weight="700" letter-spacing="-1" class="mono">4.0x</text>
+    <text x="106" y="225" fill="#d4d4dc" font-size="12.5" font-weight="600" class="sans">Scaffolding &amp; Test</text>
+    <text x="106" y="242" fill="#878791" font-size="11.5" class="mono">synthesis speed</text>
+
+    <!-- Data Rows -->
+    <line x1="22" y1="256" x2="254" y2="256" stroke="#262632" stroke-width="1" />
+    <text x="22" y="274" fill="#878791" font-size="11" font-weight="600" class="mono">ROLE</text>
+    <text x="254" y="274" text-anchor="end" fill="#ededef" font-size="12.5" font-weight="600" class="sans">Rapid Code &amp; Unit Tests</text>
+
+    <line x1="22" y1="286" x2="254" y2="286" stroke="#262632" stroke-width="1" />
+    <text x="22" y="304" fill="#878791" font-size="11" font-weight="600" class="mono">CORE</text>
+    <text x="254" y="304" text-anchor="end" fill="#7ee2b8" font-size="12" font-weight="600" class="mono">REST / gRPC / Docker</text>
+
+    <line x1="22" y1="316" x2="254" y2="316" stroke="#262632" stroke-width="1" />
+    <text x="22" y="334" fill="#878791" font-size="11" font-weight="600" class="mono">CI/CD</text>
+    <text x="254" y="334" text-anchor="end" fill="#a3a3ac" font-size="12" class="sans">Multi-Repo Bug Triage</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- CARD 03: ANTIGRAVITY (AGENTIC FULL-STACK ORCHESTRATOR)    -->
+  <!-- ========================================================= -->
+  <g transform="translate(638, 110)">
+    <rect x="5" y="7" width="276" height="346" rx="18" fill="#040406" stroke="#1f1f29" stroke-width="1" />
+    <rect x="0" y="0" width="276" height="346" rx="18" fill="url(#cardSurface)" stroke="#343442" stroke-width="1.2" />
+    <line x1="20" y1="1" x2="256" y2="1" stroke="#636375" stroke-width="1" />
+
+    <text x="22" y="32" fill="#a3a3ac" font-size="11" font-weight="600" letter-spacing="0.8" class="mono">AGENT 03 // AGENTIC IDE</text>
+    <rect x="190" y="17" width="66" height="22" rx="11" fill="#10291e" stroke="#3dd68c" stroke-width="1" />
+    <text x="223" y="32" text-anchor="middle" fill="#3dd68c" font-size="10.5" font-weight="700" class="mono">1+ YR</text>
+
+    <text x="22" y="58" fill="#ededef" font-size="20" font-weight="700" letter-spacing="-0.3" class="sans">Antigravity</text>
+
+    <!-- Sunken 3D + ASCII Viewport -->
+    <rect x="20" y="72" width="236" height="122" rx="12" fill="#08080b" stroke="#262632" stroke-width="1" />
+    <g font-size="10.5" class="mono" fill="#525263" letter-spacing="2">
+      <text x="30" y="92" class="glyph-anim">= + * # @ # * + = - : . + . :</text>
+      <text x="30" y="182" class="glyph-anim">. : { M C P _ S K I L L } : .</text>
+    </g>
+
+    <!-- Nested Group for 3D Cube -->
+    <g transform="translate(138, 126)">
+      <g class="cube-c">
+        <polygon points="0,18 58,40 0,62 -58,40" fill="#030305" opacity="0.8" />
+        <polygon points="0,-36 58,-12 0,12 -58,-12" fill="url(#isoTop)" stroke="#7cc4ff" stroke-width="1.4" />
+        <polygon points="-58,-12 0,12 0,48 -58,24" fill="url(#isoLeft)" stroke="#4a4a5a" stroke-width="1" />
+        <polygon points="58,-12 0,12 0,48 58,24" fill="url(#isoRight)" stroke="#343442" stroke-width="1" />
+        <text x="0" y="-8" text-anchor="middle" fill="#7cc4ff" font-size="11" font-weight="700" class="mono">MCP * SKILL</text>
+      </g>
+    </g>
+
+    <!-- Big Metric -->
+    <text x="22" y="232" fill="#ededef" font-size="32" font-weight="700" letter-spacing="-1" class="mono">10x</text>
+    <text x="96" y="225" fill="#d4d4dc" font-size="12.5" font-weight="600" class="sans">Full-Stack &amp; 3D</text>
+    <text x="96" y="242" fill="#878791" font-size="11.5" class="mono">autonomous delivery</text>
+
+    <!-- Data Rows -->
+    <line x1="22" y1="256" x2="254" y2="256" stroke="#262632" stroke-width="1" />
+    <text x="22" y="274" fill="#878791" font-size="11" font-weight="600" class="mono">ROLE</text>
+    <text x="254" y="274" text-anchor="end" fill="#ededef" font-size="12.5" font-weight="600" class="sans">Multi-Agent Orchestrator</text>
+
+    <line x1="22" y1="286" x2="254" y2="286" stroke="#262632" stroke-width="1" />
+    <text x="22" y="304" fill="#878791" font-size="11" font-weight="600" class="mono">TOOLS</text>
+    <text x="254" y="304" text-anchor="end" fill="#7cc4ff" font-size="12" font-weight="600" class="mono">SKILL.md / Rules / MCP</text>
+
+    <line x1="22" y1="316" x2="254" y2="316" stroke="#262632" stroke-width="1" />
+    <text x="22" y="334" fill="#878791" font-size="11" font-weight="600" class="mono">SCOPE</text>
+    <text x="254" y="334" text-anchor="end" fill="#a3a3ac" font-size="12" class="sans">Web / Mobile / Desktop</text>
+  </g>
+
+  <!-- Bottom Code Snippet Bar -->
+  <g transform="translate(46, 504)" font-size="12" class="mono">
+    <text x="0" y="0" fill="#a3a3ac">
+      <tspan fill="#ff8fb7" font-weight="600">export const</tspan> <tspan fill="#7cc4ff">vibecodeEngine</tspan> = [<tspan fill="#7ee2b8">'Claude::Architect'</tspan>, <tspan fill="#7ee2b8">'Codex::Synthesize'</tspan>, <tspan fill="#7ee2b8">'Antigravity::Execute'</tspan>];
+    </text>
+    <text x="868" y="0" text-anchor="end" fill="#3dd68c" font-weight="700">[VERIFIED]</text>
+  </g>
+</svg>
