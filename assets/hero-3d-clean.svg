@@ -1,0 +1,242 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgStage" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0b0f19" />
+    </linearGradient>
+
+    <radialGradient id="glowRight" cx="74%" cy="52%" r="42%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18" />
+      <stop offset="55%" stop-color="#6366f1" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#0b0f19" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="titleHighlight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+
+    <!-- 3D Isometric Layer Gradients (Crisp, Bright & Modern) -->
+    <linearGradient id="crownTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="crownLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4338ca" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="crownRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3730a3" />
+      <stop offset="100%" stop-color="#17153b" />
+    </linearGradient>
+
+    <linearGradient id="midTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e" />
+      <stop offset="100%" stop-color="#082f49" />
+    </linearGradient>
+    <linearGradient id="midLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0c4a6e" />
+    </linearGradient>
+    <linearGradient id="midRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#082f49" />
+    </linearGradient>
+
+    <linearGradient id="baseTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#065f46" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+    <linearGradient id="baseLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+    <linearGradient id="baseRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+
+    @keyframes floatTop {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-9px); }
+    }
+    @keyframes floatMid {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-5px); }
+    }
+    @keyframes floatBadge {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(6px); }
+    }
+    @keyframes pulseLine {
+      to { stroke-dashoffset: -48; }
+    }
+
+    .anim-top { animation: floatTop 4.5s ease-in-out infinite; }
+    .anim-mid { animation: floatMid 4.5s ease-in-out infinite 0.4s; }
+    .anim-badge { animation: floatBadge 4s ease-in-out infinite 0.8s; }
+    .data-line { stroke-dasharray: 6 6; animation: pulseLine 2s linear infinite; }
+  </style>
+
+  <!-- Outer Stage -->
+  <rect width="960" height="500" rx="18" fill="url(#bgStage)" stroke="#1e293b" stroke-width="2" />
+  <rect width="960" height="500" rx="18" fill="url(#glowRight)" />
+
+  <!-- Clean Architectural Grid Frame -->
+  <rect x="24" y="18" width="912" height="464" rx="12" fill="none" stroke="#1e293b" stroke-width="1" />
+  <line x1="24" y1="68" x2="936" y2="68" stroke="#1e293b" stroke-width="1" />
+  <line x1="24" y1="438" x2="936" y2="438" stroke="#1e293b" stroke-width="1" />
+  <line x1="472" y1="68" x2="472" y2="438" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" />
+
+  <!-- ========================================================= -->
+  <!-- TOP HEADER BAR                                            -->
+  <!-- ========================================================= -->
+  <g transform="translate(46, 32)">
+    <circle cx="8" cy="11" r="5" fill="#10b981" />
+    <text x="22" y="16" fill="#f8fafc" font-size="15" font-weight="700" class="sans">toannguyenit</text>
+
+    <rect x="136" y="1" width="160" height="22" rx="11" fill="#1e293b" />
+    <text x="216" y="16" text-anchor="middle" fill="#cbd5e1" font-size="11" font-weight="600" class="sans">Ho Chi Minh City, Vietnam</text>
+
+    <g transform="translate(684, 0)">
+      <rect x="0" y="0" width="184" height="24" rx="12" fill="#0f172a" stroke="#38bdf8" stroke-width="1" />
+      <text x="92" y="16" text-anchor="middle" fill="#38bdf8" font-size="12" font-weight="700" class="sans">toannguyenit.com</text>
+    </g>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- LEFT COLUMN: HERO INTRODUCTION                            -->
+  <!-- ========================================================= -->
+  <g transform="translate(48, 96)">
+    <!-- Experience Pill -->
+    <rect x="0" y="0" width="390" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <rect x="5" y="4" width="132" height="24" rx="12" fill="#10b981" />
+    <text x="71" y="20" text-anchor="middle" fill="#052e16" font-size="11.5" font-weight="800" class="sans">1+ YR VIBECODING</text>
+    <text x="150" y="20" fill="#f8fafc" font-size="12" font-weight="600" class="sans">Claude  |  Codex  |  Antigravity</text>
+
+    <!-- Main Title -->
+    <text x="0" y="76" fill="#ffffff" font-size="44" font-weight="800" letter-spacing="-1" class="sans">
+      toannguyenit
+    </text>
+    <text x="0" y="122" fill="url(#titleHighlight)" font-size="34" font-weight="800" letter-spacing="-0.8" class="sans">
+      Backend &amp; AI-Native
+    </text>
+    <text x="0" y="162" fill="#f8fafc" font-size="34" font-weight="800" letter-spacing="-0.8" class="sans">
+      System Architect
+    </text>
+
+    <!-- Description -->
+    <text x="0" y="202" fill="#cbd5e1" font-size="14.5" class="sans">
+      Building enterprise ecosystems across <tspan fill="#ffffff" font-weight="700">Web, Mobile &amp; Desktop</tspan>
+    </text>
+    <text x="0" y="224" fill="#cbd5e1" font-size="14.5" class="sans">
+      <tspan fill="#ffffff" font-weight="700">(Cloud &amp; LAN)</tspan> with high-throughput <tspan fill="#34d399" font-weight="700">Go</tspan> &amp; <tspan fill="#38bdf8" font-weight="700">Java Spring Boot</tspan>,
+    </text>
+    <text x="0" y="246" fill="#cbd5e1" font-size="14.5" class="sans">
+      accelerated by multi-agent AI engineering workflows.
+    </text>
+
+    <!-- Bottom Highlight Badges -->
+    <g transform="translate(0, 274)">
+      <rect x="0" y="0" width="152" height="38" rx="10" fill="#38bdf8" />
+      <text x="76" y="24" text-anchor="middle" fill="#082f49" font-size="13.5" font-weight="800" class="sans">3.5x Delivery Speed</text>
+
+      <rect x="164" y="0" width="234" height="38" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1" />
+      <text x="281" y="24" text-anchor="middle" fill="#f8fafc" font-size="13" font-weight="700" class="sans">Clean Architecture &amp; SOLID</text>
+    </g>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- RIGHT COLUMN: LARGE 3D ISOMETRIC ARCHITECTURE MONUMENT    -->
+  <!-- ========================================================= -->
+  <g transform="translate(488, 76)">
+    <!-- 3D Floor Shadow -->
+    <polygon points="224,234 422,302 224,370 26,302" fill="#050811" opacity="0.85" />
+
+    <!-- Vertical Connecting Data Lines -->
+    <line x1="100" y1="92" x2="100" y2="275" stroke="#38bdf8" stroke-width="2" class="data-line" opacity="0.7" />
+    <line x1="348" y1="92" x2="348" y2="275" stroke="#34d399" stroke-width="2" class="data-line" opacity="0.7" />
+
+    <!-- TIER 3 (BASE): DATA, CACHE & CLOUD INFRASTRUCTURE -->
+    <g>
+      <polygon points="224,204 416,270 224,336 32,270" fill="url(#baseTop)" stroke="#34d399" stroke-width="1.5" />
+      <polygon points="32,270 224,336 224,366 32,300" fill="url(#baseLeft)" stroke="#10b981" stroke-width="1" />
+      <polygon points="416,270 224,336 224,366 416,300" fill="url(#baseRight)" stroke="#059669" stroke-width="1" />
+
+      <text x="224" y="266" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="800" letter-spacing="0.8" class="sans">
+        POSTGRESQL  •  REDIS  •  DOCKER  •  AWS  •  LINUX
+      </text>
+      <text x="224" y="286" text-anchor="middle" fill="#a7f3d0" font-size="11.5" font-weight="700" class="sans">
+        Tier 3: Data, Cloud &amp; On-Premise LAN Infrastructure
+      </text>
+    </g>
+
+    <!-- TIER 2 (MIDDLE): BACKEND & MULTI-PLATFORM CORE -->
+    <g class="anim-mid">
+      <polygon points="224,146 394,206 224,266 54,206" fill="#050811" opacity="0.65" />
+      <polygon points="224,124 396,184 224,244 52,184" fill="url(#midTop)" stroke="#38bdf8" stroke-width="1.5" />
+      <polygon points="52,184 224,244 224,276 52,216" fill="url(#midLeft)" stroke="#0ea5e9" stroke-width="1" />
+      <polygon points="396,184 224,244 224,276 396,216" fill="url(#midRight)" stroke="#0284c7" stroke-width="1" />
+
+      <text x="224" y="180" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="800" letter-spacing="0.8" class="sans">
+        GO  •  JAVA SPRING BOOT  •  REACT  •  NEXT.JS
+      </text>
+      <text x="224" y="200" text-anchor="middle" fill="#bae6fd" font-size="11.5" font-weight="700" class="sans">
+        Tier 2: Web, Mobile &amp; Desktop Application Core
+      </text>
+    </g>
+
+    <!-- TIER 1 (TOP CROWN): 1+ YEAR AI VIBECODING -->
+    <g class="anim-top">
+      <polygon points="224,60 368,112 224,164 80,112" fill="#050811" opacity="0.7" />
+      <polygon points="224,38 372,90 224,142 76,90" fill="url(#crownTop)" stroke="#a855f7" stroke-width="1.8" />
+      <polygon points="76,90 224,142 224,178 76,126" fill="url(#crownLeft)" stroke="#818cf8" stroke-width="1" />
+      <polygon points="372,90 224,142 224,178 372,126" fill="url(#crownRight)" stroke="#6366f1" stroke-width="1" />
+
+      <text x="224" y="86" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="800" letter-spacing="1" class="sans">
+        CLAUDE  •  CODEX  •  ANTIGRAVITY
+      </text>
+      <text x="224" y="106" text-anchor="middle" fill="#e9d5ff" font-size="11.5" font-weight="700" class="sans">
+        Tier 1: 1+ Year AI Vibecoding Orchestration
+      </text>
+    </g>
+
+    <!-- Floating 3D Badge Left -->
+    <g transform="translate(8, 92)">
+      <g class="anim-badge">
+        <rect x="0" y="0" width="88" height="42" rx="8" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" />
+        <text x="44" y="18" text-anchor="middle" fill="#fbbf24" font-size="11" font-weight="800" class="sans">CLAUDE</text>
+        <text x="44" y="33" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="600" class="sans">Architect</text>
+      </g>
+    </g>
+
+    <!-- Floating 3D Badge Right -->
+    <g transform="translate(352, 92)">
+      <g class="anim-badge">
+        <rect x="0" y="0" width="88" height="42" rx="8" fill="#1e293b" stroke="#10b981" stroke-width="1.5" />
+        <text x="44" y="18" text-anchor="middle" fill="#34d399" font-size="11" font-weight="800" class="sans">CODEX</text>
+        <text x="44" y="33" text-anchor="middle" fill="#e2e8f0" font-size="10" font-weight="600" class="sans">Velocity</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- BOTTOM STATUS BAR                                         -->
+  <!-- ========================================================= -->
+  <g transform="translate(46, 466)" font-size="12.5" class="sans" fill="#94a3b8">
+    <circle cx="5" cy="-4" r="4" fill="#10b981" />
+    <text x="18" y="0">
+      Ecosystem: <tspan fill="#f8fafc" font-weight="700">Web  •  Mobile App  •  Desktop App (Cloud &amp; LAN)</tspan>
+    </text>
+    <text x="868" y="0" text-anchor="end">
+      Core Stack: <tspan fill="#38bdf8" font-weight="700">Go  •  Java  •  Spring Boot  •  React  •  Next.js</tspan>
+    </text>
+  </g>
+</svg>

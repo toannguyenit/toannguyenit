@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgVibe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0b0f19" />
+    </linearGradient>
+
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Claude 3D Cube (Amber/Gold) -->
+    <linearGradient id="amberTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="amberLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+    <linearGradient id="amberRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#451a03" />
+    </linearGradient>
+
+    <!-- Codex 3D Cube (Emerald) -->
+    <linearGradient id="emeraldTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="emeraldLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+    <linearGradient id="emeraldRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+
+    <!-- Antigravity 3D Cube (Sky/Indigo) -->
+    <linearGradient id="skyTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="skyLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <linearGradient id="skyRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+
+    @keyframes floatCube {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+
+    .cube-a { animation: floatCube 4s ease-in-out infinite; }
+    .cube-b { animation: floatCube 4s ease-in-out infinite 0.5s; }
+    .cube-c { animation: floatCube 4s ease-in-out infinite 1s; }
+  </style>
+
+  <!-- Outer Stage -->
+  <rect width="960" height="520" rx="18" fill="url(#bgVibe)" stroke="#1e293b" stroke-width="2" />
+
+  <!-- Header Section -->
+  <g transform="translate(46, 42)">
+    <text x="0" y="0" fill="#38bdf8" font-size="12" font-weight="800" letter-spacing="1.2" class="sans">
+      AI-NATIVE ENGINEERING WORKFLOW (1+ YEAR PRODUCTION EXPERIENCE)
+    </text>
+    <text x="0" y="28" fill="#ffffff" font-size="25" font-weight="800" class="sans">
+      Multi-Agent Vibecoding Ecosystem
+    </text>
+    <rect x="676" y="6" width="192" height="28" rx="14" fill="#1e293b" stroke="#10b981" stroke-width="1.2" />
+    <text x="772" y="24" text-anchor="middle" fill="#34d399" font-size="12" font-weight="800" class="sans">
+      3.5x Delivery Velocity
+    </text>
+  </g>
+
+  <line x1="24" y1="88" x2="936" y2="88" stroke="#1e293b" stroke-width="1" />
+
+  <!-- ========================================================= -->
+  <!-- CARD 1: CLAUDE (ARCHITECT & DEEP REASONING)               -->
+  <!-- ========================================================= -->
+  <g transform="translate(46, 108)">
+    <rect x="5" y="7" width="276" height="344" rx="16" fill="#060911" />
+    <rect x="0" y="0" width="276" height="344" rx="16" fill="url(#cardBg)" stroke="#f59e0b" stroke-width="1.5" />
+
+    <text x="22" y="32" fill="#fbbf24" font-size="11.5" font-weight="800" letter-spacing="0.8" class="sans">SYSTEM ARCHITECT</text>
+    <rect x="190" y="16" width="66" height="22" rx="11" fill="#451a03" stroke="#f59e0b" stroke-width="1" />
+    <text x="223" y="31" text-anchor="middle" fill="#fde68a" font-size="11" font-weight="800" class="sans">1+ YEAR</text>
+
+    <text x="22" y="58" fill="#ffffff" font-size="20" font-weight="800" class="sans">Claude (Anthropic)</text>
+
+    <!-- 3D Cube Viewport -->
+    <rect x="20" y="72" width="236" height="122" rx="12" fill="#090d16" stroke="#1e293b" stroke-width="1" />
+    <g transform="translate(138, 126)">
+      <g class="cube-a">
+        <polygon points="0,18 60,42 0,66 -60,42" fill="#030509" opacity="0.8" />
+        <polygon points="0,-36 60,-12 0,12 -60,-12" fill="url(#amberTop)" stroke="#fde68a" stroke-width="1.2" />
+        <polygon points="-60,-12 0,12 0,48 -60,24" fill="url(#amberLeft)" />
+        <polygon points="60,-12 0,12 0,48 60,24" fill="url(#amberRight)" />
+        <text x="0" y="-8" text-anchor="middle" fill="#451a03" font-size="11" font-weight="900" class="sans">DDD &amp; SQL</text>
+      </g>
+    </g>
+
+    <!-- Metric -->
+    <text x="22" y="232" fill="#fbbf24" font-size="32" font-weight="800" class="sans">95%</text>
+    <text x="102" y="224" fill="#ffffff" font-size="13" font-weight="700" class="sans">Spec-to-Architecture</text>
+    <text x="102" y="241" fill="#94a3b8" font-size="12" class="sans">Design Accuracy</text>
+
+    <!-- Details -->
+    <line x1="22" y1="256" x2="254" y2="256" stroke="#334155" stroke-width="1" />
+    <text x="22" y="275" fill="#94a3b8" font-size="11.5" font-weight="700" class="sans">Role</text>
+    <text x="254" y="275" text-anchor="end" fill="#ffffff" font-size="12.5" font-weight="700" class="sans">System Design &amp; DDD</text>
+
+    <line x1="22" y1="287" x2="254" y2="287" stroke="#334155" stroke-width="1" />
+    <text x="22" y="306" fill="#94a3b8" font-size="11.5" font-weight="700" class="sans">Core Stack</text>
+    <text x="254" y="306" text-anchor="end" fill="#fde68a" font-size="12.5" font-weight="700" class="sans">Go, Java &amp; PostgreSQL</text>
+
+    <line x1="22" y1="318" x2="254" y2="318" stroke="#334155" stroke-width="1" />
+    <text x="22" y="335" fill="#94a3b8" font-size="11.5" font-weight="700" class="sans">Audit</text>
+    <text x="254" y="335" text-anchor="end" fill="#cbd5e1" font-size="12.5" font-weight="600" class="sans">Concurrency &amp; Security</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- CARD 2: OPENAI CODEX (HIGH-VELOCITY EXECUTION)            -->
+  <!-- ========================================================= -->
+  <g transform="translate(342, 108)">
+    <rect x="5" y="7" width="276" height="344" rx="16" fill="#060911" />
+    <rect x="0" y="0" width="276" height="344" rx="16" fill="url(#cardBg)" stroke="#10b981" stroke-width="1.5" />
+
+    <text x="22" y="32" fill="#34d399" font-size="11.5" font-weight="800" letter-spacing="0.8" class="sans">SPEED ENGINE</text>
+    <rect x="190" y="16" width="66" height="22" rx="11" fill="#064e3b" stroke="#10b981" stroke-width="1" />
+    <text x="223" y="31" text-anchor="middle" fill="#a7f3d0" font-size="11" font-weight="800" class="sans">1+ YEAR</text>
+
+    <text x="22" y="58" fill="#ffffff" font-size="20" font-weight="800" class="sans">OpenAI Codex</text>
+
+    <!-- 3D Cube Viewport -->
+    <rect x="20" y="72" width="236" height="122" rx="12" fill="#090d16" stroke="#1e293b" stroke-width="1" />
+    <g transform="translate(138, 126)">
+      <g class="cube-b">
+        <polygon points="0,18 60,42 0,66 -60,42" fill="#030509" opacity="0.8" />
+        <polygon points="0,-36 60,-12 0,12 -60,-12" fill="url(#emeraldTop)" stroke="#a7f3d0" stroke-width="1.2" />
+        <polygon points="-60,-12 0,12 0,48 -60,24" fill="url(#emeraldLeft)" />
+        <polygon points="60,-12 0,12 0,48 60,24" fill="url(#emeraldRight)" />
+        <text x="0" y="-8" text-anchor="middle" fill="#022c22" font-size="11" font-weight="900" class="sans">API &amp; TEST</text>
+      </g>
+    </g>
+
+    <!-- Metric -->
+    <text x="22" y="232" fill="#34d399" font-size="32" font-weight="800" class="sans">4.0x</text>
+    <text x="106" y="224" fill="#ffffff" font-size="13" font-weight="700" class="sans">Scaffolding &amp; Test</text>
+    <text x="106" y="241" fill="#94a3b8" font-size="12" class="sans">Synthesis Speed</text>
+
+    <!-- Details -->
+    <line x1="22" y1="256" x2="254" y2="256" stroke="#334155" stroke-width="1" />
+    <text x="22" y="275" fill="#94a3b8" font-size="11.5" font-weight="700" class="sans">Role</text>
+    <text x="254" y="275" text-anchor="end" fill="#ffffff" font-size="12.5" font-weight="700" class="sans">Rapid Code &amp; Unit Tests</text>
+
+    <line x1="22" y1="287" x2="254" y2="287" stroke="#334155" stroke-width="1" />
+    <text x="22" y="306" fill="#94a3b8" font-size="11.5" font-weight="700" class="sans">Core Stack</text>
+    <text x="254" y="306" text-anchor="end" fill="#a7f3d0" font-size="12.5" font-weight="700" class="sans">REST, gRPC &amp; Docker</text>
+
+    <line x1="22" y1="318" x2="254" y2="318" stroke="#334155" stroke-width="1" />
+    <text x="22" y="335" fill="#94a3b8" font-size="11.5" font-weight="700" class="sans">Automation</text>
+    <text x="254" y="335" text-anchor="end" fill="#cbd5e1" font-size="12.5" font-weight="600" class="sans">Multi-Repo Bug Triage</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- CARD 3: ANTIGRAVITY (AGENTIC FULL-STACK ORCHESTRATOR)     -->
+  <!-- ========================================================= -->
+  <g transform="translate(638, 108)">
+    <rect x="5" y="7" width="276" height="344" rx="16" fill="#060911" />
+    <rect x="0" y="0" width="276" height="344" rx="16" fill="url(#cardBg)" stroke="#38bdf8" stroke-width="1.5" />
+
+    <text x="22" y="32" fill="#38bdf8" font-size="11.5" font-weight="800" letter-spacing="0.8" class="sans">AGENTIC IDE</text>
+    <rect x="190" y="16" width="66" height="22" rx="11" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1" />
+    <text x="223" y="31" text-anchor="middle" fill="#bae6fd" font-size="11" font-weight="800" class="sans">1+ YEAR</text>
+
+    <text x="22" y="58" fill="#ffffff" font-size="20" font-weight="800" class="sans">Google Antigravity</text>
+
+    <!-- 3D Cube Viewport -->
+    <rect x="20" y="72" width="236" height="122" rx="12" fill="#090d16" stroke="#1e293b" stroke-width="1" />
+    <g transform="translate(138, 126)">
+      <g class="cube-c">
+        <polygon points="0,18 60,42 0,66 -60,42" fill="#030509" opacity="0.8" />
+        <polygon points="0,-36 60,-12 0,12 -60,-12" fill="url(#skyTop)" stroke="#bae6fd" stroke-width="1.2" />
+        <polygon points="-60,-12 0,12 0,48 -60,24" fill="url(#skyLeft)" />
+        <polygon points="60,-12 0,12 0,48 60,24" fill="url(#skyRight)" />
+        <text x="0" y="-8" text-anchor="middle" fill="#082f49" font-size="11" font-weight="900" class="sans">MCP &amp; SKILLS</text>
+      </g>
+    </g>
+
+    <!-- Metric -->
+    <text x="22" y="232" fill="#38bdf8" font-size="32" font-weight="800" class="sans">10x</text>
+    <text x="96" y="224" fill="#ffffff" font-size="13" font-weight="700" class="sans">Full-Stack &amp; 3D</text>
+    <text x="96" y="241" fill="#94a3b8" font-size="12" class="sans">Autonomous Delivery</text>
+
+    <!-- Details -->
+    <line x1="22" y1="256" x2="254" y2="256" stroke="#334155" stroke-width="1" />
+    <text x="22" y="275" fill="#94a3b8" font-size="11.5" font-weight="700" class="sans">Role</text>
+    <text x="254" y="275" text-anchor="end" fill="#ffffff" font-size="12.5" font-weight="700" class="sans">Multi-Agent Orchestrator</text>
+
+    <line x1="22" y1="287" x2="254" y2="287" stroke="#334155" stroke-width="1" />
+    <text x="22" y="306" fill="#94a3b8" font-size="11.5" font-weight="700" class="sans">Custom Tooling</text>
+    <text x="254" y="306" text-anchor="end" fill="#bae6fd" font-size="12.5" font-weight="700" class="sans">SKILL.md, Rules &amp; MCP</text>
+
+    <line x1="22" y1="318" x2="254" y2="318" stroke="#334155" stroke-width="1" />
+    <text x="22" y="335" fill="#94a3b8" font-size="11.5" font-weight="700" class="sans">Platform Scope</text>
+    <text x="254" y="335" text-anchor="end" fill="#cbd5e1" font-size="12.5" font-weight="600" class="sans">Web, Mobile &amp; Desktop</text>
+  </g>
+
+  <line x1="24" y1="472" x2="936" y2="472" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Footer Summary -->
+  <text x="480" y="498" text-anchor="middle" fill="#cbd5e1" font-size="13" font-weight="600" class="sans">
+    Workflow Pipeline:  <tspan fill="#fbbf24" font-weight="700">Claude (Architecture &amp; DDD)</tspan>   →   <tspan fill="#34d399" font-weight="700">Codex (Rapid API &amp; Tests)</tspan>   →   <tspan fill="#38bdf8" font-weight="700">Antigravity (Full-Stack Execution)</tspan>
+  </text>
+</svg>

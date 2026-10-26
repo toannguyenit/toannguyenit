@@ -1,0 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgArch" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0b0f19" />
+    </linearGradient>
+
+    <!-- Tier 1: Indigo / Violet -->
+    <linearGradient id="t1Top" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <linearGradient id="t1Side" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4338ca" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+
+    <!-- Tier 2: Sky / Cyan -->
+    <linearGradient id="t2Top" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e" />
+      <stop offset="100%" stop-color="#082f49" />
+    </linearGradient>
+    <linearGradient id="t2Side" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#082f49" />
+    </linearGradient>
+
+    <!-- Tier 3: Amber / Gold -->
+    <linearGradient id="t3Top" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78350f" />
+      <stop offset="100%" stop-color="#451a03" />
+    </linearGradient>
+    <linearGradient id="t3Side" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97706" />
+      <stop offset="100%" stop-color="#451a03" />
+    </linearGradient>
+
+    <!-- Tier 4: Emerald -->
+    <linearGradient id="t4Top" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#065f46" />
+      <stop offset="100%" stop-color="#064e3b" />
+    </linearGradient>
+    <linearGradient id="t4Side" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#022c22" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+
+    @keyframes tierFloat1 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    @keyframes tierFloat2 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+    }
+    @keyframes tierFloat3 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-2px); }
+    }
+    @keyframes busFlow {
+      to { stroke-dashoffset: -48; }
+    }
+
+    .t-1 { animation: tierFloat1 4.5s ease-in-out infinite; }
+    .t-2 { animation: tierFloat2 4.5s ease-in-out infinite 0.4s; }
+    .t-3 { animation: tierFloat3 4.5s ease-in-out infinite 0.8s; }
+    .bus-line { stroke-dasharray: 6 6; animation: busFlow 2s linear infinite; }
+  </style>
+
+  <!-- Outer Stage -->
+  <rect width="960" height="540" rx="18" fill="url(#bgArch)" stroke="#1e293b" stroke-width="2" />
+
+  <!-- Section Header -->
+  <g transform="translate(46, 42)">
+    <text x="0" y="0" fill="#38bdf8" font-size="12" font-weight="800" letter-spacing="1.2" class="sans">
+      4-TIER PRODUCTION TOPOLOGY &amp; TECH STACK
+    </text>
+    <text x="0" y="28" fill="#ffffff" font-size="25" font-weight="800" class="sans">
+      3D Full-Stack &amp; Cloud Architecture
+    </text>
+    <rect x="652" y="6" width="216" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="760" y="24" text-anchor="middle" fill="#bae6fd" font-size="12" font-weight="800" class="sans">
+      Cloud &amp; On-Premise LAN
+    </text>
+  </g>
+
+  <line x1="24" y1="88" x2="936" y2="88" stroke="#1e293b" stroke-width="1" />
+  <line x1="436" y1="88" x2="436" y2="480" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" />
+
+  <!-- ========================================================= -->
+  <!-- LEFT COLUMN: 4 TECHNOLOGY LAYERS                          -->
+  <!-- ========================================================= -->
+  <g transform="translate(46, 110)">
+    <!-- Layer 1 -->
+    <rect x="0" y="0" width="366" height="76" rx="12" fill="#1e293b" stroke="#818cf8" stroke-width="1.2" />
+    <text x="18" y="24" fill="#c7d2fe" font-size="13" font-weight="800" class="sans">1. Languages &amp; Core Runtime</text>
+    <text x="18" y="46" fill="#ffffff" font-size="12.5" font-weight="700" class="sans">Java  •  Go (Golang)  •  PHP  •  Python</text>
+    <text x="18" y="64" fill="#94a3b8" font-size="12" font-weight="600" class="sans">TypeScript  •  JavaScript</text>
+
+    <!-- Layer 2 -->
+    <rect x="0" y="92" width="366" height="76" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="18" y="116" fill="#bae6fd" font-size="13" font-weight="800" class="sans">2. Frameworks &amp; Libraries</text>
+    <text x="18" y="138" fill="#ffffff" font-size="12.5" font-weight="700" class="sans">Spring Boot  •  Laravel  •  NestJS</text>
+    <text x="18" y="156" fill="#94a3b8" font-size="12" font-weight="600" class="sans">React  •  Next.js  •  Vue.js  •  Tailwind CSS</text>
+
+    <!-- Layer 3 -->
+    <rect x="0" y="184" width="366" height="76" rx="12" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2" />
+    <text x="18" y="208" fill="#fde68a" font-size="13" font-weight="800" class="sans">3. Databases &amp; High-Speed Cache</text>
+    <text x="18" y="230" fill="#ffffff" font-size="12.5" font-weight="700" class="sans">PostgreSQL  •  MySQL  •  MongoDB</text>
+    <text x="18" y="248" fill="#94a3b8" font-size="12" font-weight="600" class="sans">Redis (Cache-Aside, Message Queues, Locks)</text>
+
+    <!-- Layer 4 -->
+    <rect x="0" y="276" width="366" height="76" rx="12" fill="#1e293b" stroke="#10b981" stroke-width="1.2" />
+    <text x="18" y="300" fill="#a7f3d0" font-size="13" font-weight="800" class="sans">4. DevOps, Cloud &amp; Tooling</text>
+    <text x="18" y="322" fill="#ffffff" font-size="12.5" font-weight="700" class="sans">Docker  •  AWS  •  NGINX  •  Linux</text>
+    <text x="18" y="340" fill="#94a3b8" font-size="12" font-weight="600" class="sans">Storage  •  Google Workspace</text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- RIGHT COLUMN: LARGE 4-TIER 3D ISOMETRIC STACK             -->
+  <!-- ========================================================= -->
+  <g transform="translate(450, 82)">
+    <!-- Floor Shadow -->
+    <polygon points="235,268 452,332 235,396 18,332" fill="#050811" opacity="0.85" />
+
+    <!-- Vertical Connecting Data Lines -->
+    <line x1="92" y1="92" x2="92" y2="312" stroke="#38bdf8" stroke-width="2" class="bus-line" opacity="0.7" />
+    <line x1="378" y1="92" x2="378" y2="312" stroke="#34d399" stroke-width="2" class="bus-line" opacity="0.7" />
+
+    <!-- TIER 4 (BOTTOM): DEVOPS, CLOUD, STORAGE & WORKSPACE -->
+    <g>
+      <polygon points="235,248 450,312 235,376 20,312" fill="url(#t4Top)" stroke="#34d399" stroke-width="1.5" />
+      <polygon points="20,312 235,376 235,400 20,336" fill="url(#t4Side)" />
+      <polygon points="450,312 235,376 235,400 450,336" fill="#064e3b" />
+      <text x="235" y="308" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="800" letter-spacing="0.6" class="sans">
+        DOCKER  •  AWS  •  NGINX  •  LINUX
+      </text>
+      <text x="235" y="327" text-anchor="middle" fill="#a7f3d0" font-size="11.5" font-weight="700" class="sans">
+        Layer 4: Storage &amp; Google Workspace
+      </text>
+    </g>
+
+    <!-- TIER 3 (LOWER-MID): DATABASES & HIGH-SPEED CACHE -->
+    <g class="t-3">
+      <polygon points="235,190 446,252 235,314 24,252" fill="#050811" opacity="0.65" />
+      <polygon points="235,176 450,240 235,304 20,240" fill="url(#t3Top)" stroke="#fbbf24" stroke-width="1.5" />
+      <polygon points="20,240 235,304 235,328 20,264" fill="url(#t3Side)" />
+      <polygon points="450,240 235,304 235,328 450,264" fill="#78350f" />
+      <text x="235" y="236" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="800" letter-spacing="0.6" class="sans">
+        POSTGRESQL  •  MYSQL  •  MONGODB  •  REDIS
+      </text>
+      <text x="235" y="255" text-anchor="middle" fill="#fde68a" font-size="11.5" font-weight="700" class="sans">
+        Layer 3: Persistence &amp; Distributed Cache
+      </text>
+    </g>
+
+    <!-- TIER 2 (UPPER-MID): FRAMEWORKS & LIBRARIES -->
+    <g class="t-2">
+      <polygon points="235,118 446,180 235,242 24,180" fill="#050811" opacity="0.65" />
+      <polygon points="235,104 450,168 235,232 20,168" fill="url(#t2Top)" stroke="#38bdf8" stroke-width="1.5" />
+      <polygon points="20,168 235,232 235,256 20,192" fill="url(#t2Side)" />
+      <polygon points="450,168 235,232 235,256 450,192" fill="#0c4a6e" />
+      <text x="235" y="164" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="800" letter-spacing="0.5" class="sans">
+        SPRING BOOT  •  LARAVEL  •  NESTJS  •  REACT  •  NEXT.JS
+      </text>
+      <text x="235" y="183" text-anchor="middle" fill="#bae6fd" font-size="11.5" font-weight="700" class="sans">
+        Layer 2: Vue.js &amp; Tailwind CSS
+      </text>
+    </g>
+
+    <!-- TIER 1 (TOP): LANGUAGES & CORE -->
+    <g class="t-1">
+      <polygon points="235,46 446,108 235,170 24,108" fill="#050811" opacity="0.7" />
+      <polygon points="235,32 450,96 235,160 20,96" fill="url(#t1Top)" stroke="#a855f7" stroke-width="1.6" />
+      <polygon points="20,96 235,160 235,184 20,120" fill="url(#t1Side)" />
+      <polygon points="450,96 235,160 235,184 450,120" fill="#312e81" />
+      <text x="235" y="92" text-anchor="middle" fill="#ffffff" font-size="12.5" font-weight="800" letter-spacing="0.6" class="sans">
+        JAVA  •  GO (GOLANG)  •  PHP  •  PYTHON  •  TS  •  JS
+      </text>
+      <text x="235" y="111" text-anchor="middle" fill="#e9d5ff" font-size="11.5" font-weight="700" class="sans">
+        Layer 1: Core Languages &amp; AI Vibecoding
+      </text>
+    </g>
+  </g>
+
+  <line x1="24" y1="480" x2="936" y2="480" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Bottom Summary Bar -->
+  <text x="480" y="510" text-anchor="middle" fill="#cbd5e1" font-size="13" font-weight="600" class="sans">
+    Runtime &amp; Infrastructure:  <tspan fill="#ffffff" font-weight="700">JVM  •  Go Runtime  •  Node.js  •  Docker  •  AWS  •  NGINX  •  Linux  •  Storage  •  Google Workspace</tspan>
+  </text>
+</svg>
