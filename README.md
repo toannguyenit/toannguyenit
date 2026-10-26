@@ -3,7 +3,7 @@
 # Hi there, I'm toannguyenit 👋
 
 <a href="https://toannguyenit.com/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=Java+Backend+Developer;Microservices+%26+Cloud+Specialist;Building+Scalable+Web+Systems;Golang+%26+Spring+Boot+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=Backend+Developer;Microservices+%26+Cloud+Specialist;Building+Scalable+Web+Systems;Golang+%26+Spring+Boot+Enthusiast" alt="Typing SVG" />
 </a>
 
 📍 Ho Chi Minh City, Vietnam  
