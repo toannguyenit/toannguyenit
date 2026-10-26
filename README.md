@@ -59,10 +59,11 @@ engineer_profile:
   engineering_philosophy: "Architect with precision, orchestrate AI with intent, and ship resilient code."
 ```
 
-- 🔭 **Currently Building:** **Enterprise Preschool Management System** (Java/Spring Boot) & **KTech College Medical App** (Laravel/Vue/Redis).
-- 🤖 **1+ Year Vibecoding Mastery:** Architecting specs, custom agent rules, MCP integrations, and multi-agent pipelines using **Claude**, **Codex**, and **Antigravity**.
-- 🌱 **Deepening Expertise:** **Go (Golang)** high-throughput microservices, **gRPC**, distributed locks, and event-driven systems.
-- 👯 **Open for Collaboration:** Scalable backend systems, AI-augmented engineering workflows, and open-source developer tools.
+- 🚀 **Currently Building:** Applying AI & Software Engineering to build an end-to-end **Enterprise Ecosystem** across **Web, Mobile App & Desktop App (Cloud & LAN)**—encompassing **Task & Workflow Management, Internal Tools, R&D Systems, and AI-Powered Data Analytics & Digitalization** to optimize workflows, boost productivity, mitigate operational risks, and strengthen enterprise security.
+- 🔭 **Delivered Systems:** **Enterprise Preschool Management System** & **Healthcare System and Medical App**.
+- 🤖 **1+ Year Vibecoding Mastery:** Spec-driven development, custom Agent Rules, MCP integrations, and orchestrating **Multi-Agent Pipelines** using **Claude**, **Codex**, and **Antigravity**.
+- 🌱 **Deepening Expertise:** High-throughput microservices with **Go (Golang)**, **gRPC**, Distributed Locks, and Event-Driven Architecture.
+- 👯 **Open for Collaboration:** Large-scale backend systems, AI-augmented engineering workflows, and open-source developer tools.
 
 ---
 
@@ -126,8 +127,9 @@ engineer_profile:
 
 | Project | Tech & AI Stack | Architectural Highlights & Key Contributions | Status / Live |
 | :--- | :--- | :--- | :---: |
-| **🏫 Enterprise Preschool Management System** | `Java` `Spring Boot` `PostgreSQL` `Docker` `React` <br/> *(AI-Accelerated with Claude & Antigravity)* | Architected core backend modules for student lifecycle tracking, automated tuition billing, attendance, and granular RBAC authorization. Tuned complex PostgreSQL reporting queries for sub-100ms response times. | ![Status](https://img.shields.io/badge/Status-In_Development-38BDF8?style=flat-square) |
-| **🏥 KTech College Medical App** | `Laravel` `MySQL` `Redis` `Vue.js` <br/> *(AI-Accelerated with Codex & Claude)* | Engineered RESTful APIs for real-time appointment booking, electronic medical records (EMR), and automated SMS/email queues. Implemented **Redis** caching layers to offload high-frequency read traffic. | ![Status](https://img.shields.io/badge/Status-In_Development-38BDF8?style=flat-square) |
+| **🏢 Enterprise AI & Multi-Platform Ecosystem** | `Java` `Golang` `React` `Mobile/Desktop` `AI Agents` `Cloud & LAN` <br/> *(Orchestrated with Claude, Codex & Antigravity)* | Architecting a unified enterprise ecosystem across **Web, Mobile App & Desktop App (Cloud & On-Premise LAN)**. Covers **Task & Workflow Management, Internal Tools, R&D**, and **AI-driven data analytics & digitization**—boosting productivity, minimizing operational risks, and enforcing strict security. | ![Status](https://img.shields.io/badge/Status-Active_Development-38BDF8?style=flat-square) |
+| **🏫 Enterprise Preschool Management System** | `Java` `Spring Boot` `PostgreSQL` `Docker` `React` <br/> *(AI-Accelerated with Claude & Antigravity)* | Architected core backend modules for student lifecycle tracking, automated tuition billing, attendance, and granular RBAC authorization. Tuned complex PostgreSQL reporting queries for sub-100ms response times. | ![Status](https://img.shields.io/badge/Status-Completed-10B981?style=flat-square) |
+| **🏥 Healthcare System & Medical App** | `Laravel` `MySQL` `Redis` `Vue.js` <br/> *(AI-Accelerated with Codex & Claude)* | Engineered RESTful APIs for real-time appointment booking, electronic medical records (EMR), and automated SMS/email queues. Implemented **Redis** caching layers to offload high-frequency read traffic. | ![Status](https://img.shields.io/badge/Status-Completed-10B981?style=flat-square) |
 | **⚡ Go Microservices Sandbox** | `Go (Golang)` `gRPC` `PostgreSQL` `Redis` `Docker` | High-throughput distributed microservice template featuring JWT security, Protobuf/gRPC inter-service communication, clean hexagonal architecture, and multi-stage Docker deployments. | ![Status](https://img.shields.io/badge/Type-Architecture_Lab-A855F7?style=flat-square) |
 | **🌐 Technical Portfolio & Engineering Blog** | `Next.js` `React` `TypeScript` `Tailwind CSS` | Personal engineering hub showcasing system design articles, backend performance guides, AI Vibecoding workflows, and interactive project showcases. | [![Live](https://img.shields.io/badge/Visit-toannguyenit.com-10B981?style=flat-square&logo=vercel)](https://toannguyenit.com/) |
 
