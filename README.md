@@ -1,35 +1,35 @@
 <div align="center">
 
-<!-- 3D Isometric Animated Hero Stage -->
+<!-- 3D Isometric & ASCII-Reveal Hero Stage -->
 <a href="https://toannguyenit.com/">
-  <img src="./assets/hero-banner-3d.svg" alt="toannguyenit - 3D Hero Banner" width="100%" />
+  <img src="./assets/hero-ascii-3d.svg" alt="toannguyenit — 3D ASCII Architecture Banner" width="100%" />
 </a>
 
 <br />
 
-<!-- Dynamic Typing Header -->
+<!-- Dynamic Monochrome Typing Telemetry -->
 <a href="https://toannguyenit.com/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=780&lines=Java+%26+Golang+Backend+Engineer+%7C+Microservices+Specialist;1%2B+Year+AI-Native+Vibecoding+with+Claude%2C+Codex+%26+Antigravity;Building+High-Throughput+APIs+%26+Scalable+Cloud+Architectures;10x+Engineering+Velocity+via+Multi-Agent+AI+Orchestration" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Geist+Mono&weight=500&size=18&pause=1200&color=EDEDEF&center=true&vCenter=true&width=820&lines=%3E_+toannguyenit+%2F%2F+Backend+%26+AI-Native+System+Architect;1%2B+Year+Production+Vibecoding+with+Claude+%C2%B7+Codex+%C2%B7+Antigravity;Enterprise+Ecosystems%3A+Web+%C2%B7+Mobile+%C2%B7+Desktop+(Cloud+%26+LAN);Go+(Golang)+%C2%B7+Java+Spring+Boot+%C2%B7+PostgreSQL+%C2%B7+Redis+%C2%B7+Docker" alt="Typing SVG" />
 </a>
 
 <p align="center">
   <a href="https://toannguyenit.com/">
-    <img src="https://img.shields.io/badge/🌐_Portfolio-toannguyenit.com-10B981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" />
+    <img src="https://img.shields.io/badge/toannguyenit.com-3dd68c?style=for-the-badge&logo=vercel&logoColor=ededef&label=WEBSITE&labelColor=08080a" alt="Website" />
   </a>
   <a href="https://www.linkedin.com/in/nguyenvosongtoan/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-14141a?style=for-the-badge&logo=linkedin&logoColor=7cc4ff" alt="LinkedIn" />
   </a>
   <a href="https://leetcode.com/u/user6628i/">
-    <img src="https://img.shields.io/badge/LeetCode-Problem_Solver-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+    <img src="https://img.shields.io/badge/LeetCode-14141a?style=for-the-badge&logo=leetcode&logoColor=f5c27a" alt="LeetCode" />
   </a>
   <a href="https://www.hackerrank.com/profile/toannguyen_hcmu1">
-    <img src="https://img.shields.io/badge/HackerRank-Verified-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black" alt="HackerRank" />
+    <img src="https://img.shields.io/badge/HackerRank-14141a?style=for-the-badge&logo=hackerrank&logoColor=3dd68c" alt="HackerRank" />
   </a>
   <a href="https://youtube.com/@nguyenvosongtoan">
-    <img src="https://img.shields.io/badge/YouTube-Tech_Channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+    <img src="https://img.shields.io/badge/YouTube-14141a?style=for-the-badge&logo=youtube&logoColor=ff8fb7" alt="YouTube" />
   </a>
   <a href="https://www.facebook.com/nguyenvosongtoan">
-    <img src="https://img.shields.io/badge/Facebook-Follow-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+    <img src="https://img.shields.io/badge/Facebook-14141a?style=for-the-badge&logo=facebook&logoColor=ededef" alt="Facebook" />
   </a>
 </p>
 
@@ -37,140 +37,116 @@
 
 ---
 
-## 👨‍💻 About Me
+## `00 //` 👨‍💻 About Me & Current Focus
 
 I am a results-driven **Software Engineer** specializing in high-performance backend systems, distributed **Microservices**, and **AI-Native Software Engineering**. Over the past year, I have deeply integrated **AI Vibecoding workflows** (**Claude**, **OpenAI Codex**, and **Google Antigravity**) into enterprise software delivery—combining strict architectural foundations (**SOLID, DDD, Clean Architecture**) with autonomous multi-agent execution to ship production-ready systems at **3.5x velocity**.
 
 ```yaml
 engineer_profile:
-  name: "toannguyenit"
+  handle: "toannguyenit"
   location: "Ho Chi Minh City, Vietnam 🇻🇳"
   website: "https://toannguyenit.com/"
-  core_focus:
-    - "Enterprise Backend Architecture (Java Spring Boot, Golang, Laravel, NestJS)"
-    - "High-Concurrency Microservices, gRPC & Distributed Caching (Redis, PostgreSQL)"
-    - "AI-Native Vibecoding & Multi-Agent Engineering (1+ Year Practical Experience)"
+  current_mission:
+    ecosystem: "Enterprise Multi-Platform Ecosystem (Web · Mobile App · Desktop App)"
+    topology: "Hybrid Cloud & On-Premise LAN"
+    modules: ["Task & Workflow Management", "Internal Tools", "R&D Systems", "AI Analytics & Digitization"]
   ai_vibecode_stack:
-    experience: "1+ Year Intensive Production & Product Vibecoding"
-    engines:
-      - "Claude (Anthropic)   -> Deep System Design, Complex Refactoring & Edge-Case Auditing"
-      - "OpenAI Codex         -> High-Speed Code Synthesis, Test Suites & CI/CD Automation"
-      - "Google Antigravity   -> Autonomous Multi-Agent Orchestration, Custom Skills & 3D/Full-Stack Delivery"
-  engineering_philosophy: "Architect with precision, orchestrate AI with intent, and ship resilient code."
+    experience: "1+ Year Production Vibecoding"
+    agents:
+      claude: "System Architecture, DDD, Complex SQL & Security Auditing"
+      codex: "High-Speed API Scaffolding, Automated Testing & Multi-Repo CI/CD"
+      antigravity: "Autonomous Multi-Agent Orchestration, Custom Skills & Full-Stack Delivery"
 ```
 
-- 🚀 **Currently Building:** Applying AI & Software Engineering to build an end-to-end **Enterprise Ecosystem** across **Web, Mobile App & Desktop App (Cloud & LAN)**—encompassing **Task & Workflow Management, Internal Tools, R&D Systems, and AI-Powered Data Analytics & Digitalization** to optimize workflows, boost productivity, mitigate operational risks, and strengthen enterprise security.
-- 🔭 **Delivered Systems:** **Enterprise Preschool Management System** & **Healthcare System and Medical App**.
-- 🤖 **1+ Year Vibecoding Mastery:** Spec-driven development, custom Agent Rules, MCP integrations, and orchestrating **Multi-Agent Pipelines** using **Claude**, **Codex**, and **Antigravity**.
-- 🌱 **Deepening Expertise:** High-throughput microservices with **Go (Golang)**, **gRPC**, Distributed Locks, and Event-Driven Architecture.
-- 👯 **Open for Collaboration:** Large-scale backend systems, AI-augmented engineering workflows, and open-source developer tools.
+- 🚀 **Đang xây dựng (`Currently Building`):** Ứng dụng AI và kỹ thuật phần mềm xây dựng **Hệ sinh thái cho doanh nghiệp** bao gồm **Web, Mobile App, Desktop App (Cloud & LAN)** với các hạng mục: Quản lý công việc, công cụ, R&D, tích hợp AI để phân tích và chuyển đổi số liệu — tối ưu quy trình, tăng năng suất, giảm rủi ro và bảo mật.
+- 🔭 **Đã hoàn thành (`Delivered Systems`):** **Hệ thống Quản lý Trường Mầm non Doanh nghiệp** (*Enterprise Preschool Management System*) & **Hệ thống và Ứng dụng Y tế** (*Medical App*).
+- 🤖 **Làm chủ Vibecoding (`1+ Năm`):** Thiết kế đặc tả (*Spec-driven*), xây dựng Agent Rules, tích hợp MCP và điều phối luồng đa tác tử (*Multi-Agent Pipelines*) cùng **Claude**, **Codex**, **Antigravity**.
+- 🌱 **Đang đào sâu (`Deepening`):** Microservices chịu tải cao với **Go (Golang)**, **gRPC**, Distributed Locks và kiến trúc hướng sự kiện (*Event-Driven Architecture*).
+- 👯 **Sẵn sàng hợp tác (`Collaboration`):** Các dự án hệ thống Backend mở rộng quy mô lớn, quy trình kỹ thuật ứng dụng AI và công cụ mã nguồn mở.
 
 ---
 
-## 🧊 AI-Native Vibecoding Arsenal (1+ Year Experience)
+## `01 //` 🧊 AI-Native Vibecoding Matrix (1+ Year Experience)
 
 <div align="center">
-  <img src="./assets/vibecode-3d.svg" alt="3D AI-Native Vibecoding Engine - Claude, Codex, Antigravity" width="100%" />
+  <img src="./assets/vibecode-ascii-3d.svg" alt="3D ASCII Vibecoding Matrix — Claude, Codex, Antigravity" width="100%" />
 </div>
 
 <br />
 
-<div align="center">
-
-[![Claude AI](https://img.shields.io/badge/Claude_AI-1+_Yr_Vibecoding-D97706?style=for-the-badge&logo=anthropic&logoColor=white)](#)
-[![OpenAI Codex](https://img.shields.io/badge/OpenAI_Codex-1+_Yr_Vibecoding-10B981?style=for-the-badge&logo=openai&logoColor=white)](#)
-[![Google Antigravity](https://img.shields.io/badge/Antigravity-1+_Yr_Agentic_IDE-A855F7?style=for-the-badge&logo=google&logoColor=white)](#)
-[![MCP & Skills](https://img.shields.io/badge/MCP_%26_Agent_Skills-Custom_Workflows-38BDF8?style=for-the-badge&logo=sparkles&logoColor=white)](#)
-
-</div>
-
-| AI Engine / Platform | Experience | Core Vibecoding Role & Production Workflow | Engineering Impact |
+| Agent Engine | Experience | Production Vibecoding Role | Measured Impact |
 | :--- | :---: | :--- | :--- |
-| **🟠 Claude (Anthropic)** | **`1+ Year`** | **System Architect & Deep Reasoning Partner:** Domain-Driven Design (DDD), database schema modeling, complex SQL query optimization, and deep architectural code reviews. | Eliminates design bottlenecks & catches subtle concurrency/security edge cases early. |
-| **🟢 OpenAI Codex** | **`1+ Year`** | **High-Velocity Execution & Test Engine:** Rapid scaffolding of REST/gRPC endpoints, DTOs, unit/integration test suites, Dockerfiles, and automated bug triage across repositories. | Accelerates boilerplate & test coverage generation by **4x** with strict type safety. |
-| **🟣 Google Antigravity** | **`1+ Year`** | **Autonomous Multi-Agent Orchestrator:** End-to-end feature execution across backend, frontend, terminal, and browser using custom `SKILL.md` modules, rules, and MCP tools. | Turns complex multi-file specifications into verified, production-ready features. |
+| **Claude (Anthropic)** | `1+ Year` | **System Architect & Deep Reasoning:** Domain-Driven Design (DDD), relational schema modeling, complex SQL/GORM optimization, and concurrency/security auditing. | **95% Spec Accuracy** — eliminates architectural bottlenecks early. |
+| **OpenAI Codex** | `1+ Year` | **Velocity & Test Synthesis Engine:** Rapid scaffolding of REST/gRPC APIs, DTOs, automated Unit/Integration test suites, Dockerfiles, and multi-repo bug triage. | **4.0x Faster Scaffolding** & high-coverage automated verification. |
+| **Google Antigravity** | `1+ Year` | **Autonomous Multi-Agent Orchestrator:** End-to-end feature execution across backend, frontend, terminal, and browser using custom `SKILL.md` modules, rules, and MCP tools. | **10x Agentic Workflow** across Web, Mobile, and Desktop repositories. |
 
 ---
 
-## ⚡ 3D System Architecture & Interactive Tech Arsenal
+## `02 //` ⚡ Kiến trúc Hệ thống 4 Tầng & Công nghệ Sử dụng
 
 <div align="center">
-  <img src="./assets/system-architecture-3d.svg" alt="3D 4-Tier System Architecture" width="100%" />
+  <img src="./assets/architecture-ascii-3d.svg" alt="3D 4-Tier System Architecture" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
 
-| Domain Layer | Interactive Tech Icons | Key Technologies & Ecosystem |
+| Phân tầng Hệ thống | Biểu tượng Công nghệ | Hệ sinh thái & Công cụ Cốt lõi |
 | :--- | :---: | :--- |
-| **☕ Languages & Core** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,go,php,py,ts,js&theme=dark" alt="Languages" /></a> | `Java` • `Go (Golang)` • `PHP` • `Python` • `TypeScript` • `JavaScript` |
-| **🚀 Frameworks & Libraries** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=spring,laravel,nestjs,react,nextjs,vue,tailwind&theme=dark" alt="Frameworks" /></a> | `Spring Boot` • `Laravel` • `NestJS` • `React` • `Next.js` • `Vue.js` • `Tailwind CSS` |
-| **🗄️ Databases & High-Speed Cache** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" alt="Databases" /></a> | `PostgreSQL` • `MySQL` • `MongoDB` • `Redis` |
-| **☁️ DevOps, Cloud & Tooling** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,aws,nginx,linux,gcp&theme=dark" alt="DevOps" /></a> | `Docker` • `AWS` • `NGINX` • `Linux` • `Storage` • `GG Workspace` |
-
-<br />
-
-### 🛠️ Complete Full-Stack & Cloud Matrix
-
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,go,php,py,ts,js,spring,laravel,nestjs,react,nextjs,vue,tailwind,postgres,mysql,mongodb,redis,docker,aws,nginx,linux,gcp&theme=dark&perline=8" alt="Full Skills Grid" />
-  </a>
-</p>
+| **☕ Ngôn ngữ lập trình** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,go,php,py,ts,js&theme=dark" alt="Languages" /></a> | `Java` · `Go (Golang)` · `PHP` · `Python` · `TypeScript` · `JavaScript` |
+| **🚀 Frameworks & Thư viện** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=spring,laravel,nestjs,react,nextjs,vue,tailwind&theme=dark" alt="Frameworks" /></a> | `Spring Boot` · `Laravel` · `NestJS` · `React` · `Next.js` · `Vue.js` · `Tailwind CSS` |
+| **🗄️ Cơ sở dữ liệu & Bộ nhớ đệm** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" alt="Databases" /></a> | `PostgreSQL` · `MySQL` · `MongoDB` · `Redis` |
+| **☁️ DevOps, Cloud & Công cụ** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,aws,nginx,linux,gcp&theme=dark" alt="DevOps" /></a> | `Docker` · `AWS` · `NGINX` · `Linux` · `Storage` · `GG Workspace` |
 
 </div>
 
 ---
 
-## 🚀 Featured Projects & Production Experience
+## `03 //` 🚀 Dự án Tiêu biểu & Kinh nghiệm Thực tế
 
-| Project | Tech & AI Stack | Architectural Highlights & Key Contributions | Status / Live |
+| Dự án / Hệ thống | Công nghệ & AI Stack | Điểm nhấn Kiến trúc & Đóng góp Chính | Trạng thái |
 | :--- | :--- | :--- | :---: |
-| **🏢 Enterprise AI & Multi-Platform Ecosystem** | `Java` `Golang` `React` `Mobile/Desktop` `AI Agents` `Cloud & LAN` <br/> *(Orchestrated with Claude, Codex & Antigravity)* | Architecting a unified enterprise ecosystem across **Web, Mobile App & Desktop App (Cloud & On-Premise LAN)**. Covers **Task & Workflow Management, Internal Tools, R&D**, and **AI-driven data analytics & digitization**—boosting productivity, minimizing operational risks, and enforcing strict security. | ![Status](https://img.shields.io/badge/Status-Active_Development-38BDF8?style=flat-square) |
-| **🏫 Enterprise Preschool Management System** | `Go (Golang)` `GORM` `PostgreSQL` `Docker` `React` <br/> *(AI-Accelerated with Claude & Antigravity)* | Architected core backend modules for student lifecycle tracking, automated tuition billing, attendance, and granular RBAC authorization. Tuned complex PostgreSQL reporting queries for sub-100ms response times. | ![Status](https://img.shields.io/badge/Status-Completed-10B981?style=flat-square) |
-| **🏥 Medical App (Healthcare System)** | `Spring Boot` `MySQL` `Redis` `Next.js` <br/> *(AI-Accelerated with Codex & Claude)* | Engineered RESTful APIs for real-time appointment booking, electronic medical records (EMR), and automated SMS/email queues. Implemented **Redis** caching layers to offload high-frequency read traffic. | ![Status](https://img.shields.io/badge/Status-Completed-10B981?style=flat-square) |
-| **⚡ Go Microservices Sandbox** | `Go (Golang)` `gRPC` `PostgreSQL` `Redis` `Docker` | High-throughput distributed microservice template featuring JWT security, Protobuf/gRPC inter-service communication, clean hexagonal architecture, and multi-stage Docker deployments. | ![Status](https://img.shields.io/badge/Type-Architecture_Lab-A855F7?style=flat-square) |
-| **🌐 Technical Portfolio & Engineering Blog** | `Next.js` `React` `TypeScript` `Tailwind CSS` | Personal engineering hub showcasing system design articles, backend performance guides, AI Vibecoding workflows, and interactive project showcases. | [![Live](https://img.shields.io/badge/Visit-toannguyenit.com-10B981?style=flat-square&logo=vercel)](https://toannguyenit.com/) |
+| **🏢 Hệ sinh thái Doanh nghiệp & AI (Enterprise Ecosystem)** | `Go` `Java` `React` `Web · Mobile · Desktop` `Cloud & LAN` <br/> *(Claude · Codex · Antigravity)* | Xây dựng hệ sinh thái đa nền tảng (**Web, Mobile App, Desktop App** trên **Cloud & LAN**) gồm Quản lý công việc, công cụ nội bộ, R&D và tích hợp AI phân tích, chuyển đổi số liệu. Tối ưu quy trình, tăng năng suất, giảm rủi ro và bảo mật. | ![Status](https://img.shields.io/badge/ACTIVE_BUILD-5b8cff?style=flat-square&label=STATUS&labelColor=08080a) |
+| **🏫 Hệ thống Quản lý Mầm non (Enterprise Preschool Management System)** | `Go` `GORM` `PostgreSQL` `Docker` `React` <br/> *(Tăng tốc với Claude & Antigravity)* | Xây dựng các phân hệ cốt lõi quản lý hồ sơ học sinh, tính học phí tự động, điểm danh và phân quyền RBAC chi tiết. Tối ưu hóa các truy vấn báo cáo PostgreSQL phức tạp đạt thời gian phản hồi dưới `100ms`. | ![Status](https://img.shields.io/badge/ĐÃ_PHÁT_TRIỂN-3dd68c?style=flat-square&label=STATUS&labelColor=08080a) |
+| **🏥 Ứng dụng Y tế (Medical App)** | `Spring Boot` `MySQL` `Redis` `Next.js` <br/> *(Tăng tốc với Codex & Claude)* | Phát triển hệ thống RESTful API đặt lịch khám trực tuyến, hồ sơ bệnh án điện tử (EMR) và hàng đợi gửi thông báo SMS/Email tự động. Tích hợp **Redis** caching giảm tải cho các truy vấn đọc tần suất cao. | ![Status](https://img.shields.io/badge/ĐÃ_PHÁT_TRIỂN-3dd68c?style=flat-square&label=STATUS&labelColor=08080a) |
+| **⚡ Go Microservices Sandbox** | `Go (Golang)` `gRPC` `PostgreSQL` `Redis` `Docker` | Khung kiến trúc Microservice chịu tải cao tích hợp xác thực JWT, giao tiếp nội bộ qua Protobuf/gRPC, kiến trúc Hexagonal sạch và đóng gói Docker đa tầng (multi-stage). | ![Status](https://img.shields.io/badge/ARCH_LAB-f5c27a?style=flat-square&label=TYPE&labelColor=08080a) |
+| **🌐 Technical Portfolio & Engineering Blog** | `Next.js` `React` `TypeScript` `Tailwind CSS` | Chuyên trang chia sẻ kiến thức thiết kế hệ thống, tối ưu hiệu năng Backend, quy trình AI Vibecoding và danh mục sản phẩm công nghệ. | [![Live](https://img.shields.io/badge/toannguyenit.com-ededef?style=flat-square&label=LIVE&labelColor=08080a)](https://toannguyenit.com/) |
 
 ---
 
-## 💡 Core Engineering Competencies
+## `04 //` 💡 Năng lực Chuyên môn Cốt lõi
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏗️ Distributed Backend Architecture</h3>
+      <h3><code>01</code> · Kiến trúc Backend Phân tán</h3>
       <ul>
-        <li>Designing resilient <b>Monolithic &amp; Microservices</b> systems with clear bounded contexts.</li>
-        <li>Building high-concurrency RESTful &amp; <b>gRPC</b> APIs adhering to <b>SOLID</b> and Clean Architecture.</li>
-        <li>Implementing robust authentication/authorization (JWT, OAuth2, RBAC) and fault-tolerant API gateways.</li>
+        <li>Thiết kế hệ thống <b>Monolithic &amp; Microservices</b> chịu tải cao trên cả môi trường <b>Cloud &amp; On-Premise LAN</b>.</li>
+        <li>Xây dựng RESTful &amp; <b>gRPC</b> API tuân thủ <b>SOLID</b>, Clean Architecture và bảo mật đa lớp (JWT, OAuth2, RBAC).</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>🤖 AI-Augmented Engineering (Vibecoding)</h3>
+      <h3><code>02</code> · AI-Native Vibecoding (1+ Năm)</h3>
       <ul>
-        <li><b>1+ Year Experience</b> combining <b>Claude, Codex &amp; Antigravity</b> for spec-driven development.</li>
-        <li>Authoring structured prompts, custom agent skills, and architectural guardrails to keep AI-generated code clean and maintainable.</li>
-        <li>Rapid prototyping, automated test synthesis, and zero-regression refactoring at scale.</li>
+        <li>Điều phối bộ ba <b>Claude, Codex &amp; Antigravity</b> theo quy trình <b>Spec-driven development</b>.</li>
+        <li>Thiết lập Agent Rules, custom <code>SKILL.md</code> và MCP Tools giúp nhân bản tốc độ phát triển lên <b>3.5x</b> mà vẫn giữ chuẩn kiến trúc sạch.</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ Database &amp; Caching Optimization</h3>
+      <h3><code>03</code> · Tối ưu CSDL &amp; Distributed Cache</h3>
       <ul>
-        <li>Relational schema design, composite indexing strategies, and query execution plan tuning (<b>PostgreSQL / MySQL</b>).</li>
-        <li>High-speed caching patterns (Cache-Aside, Write-Through, TTL eviction) and message queuing with <b>Redis</b>.</li>
-        <li>Preventing N+1 queries, deadlocks, and race conditions in high-traffic transactional workflows.</li>
+        <li>Thiết kế lược đồ quan hệ, tối ưu Composite Index và Execution Plan trên <b>PostgreSQL / MySQL</b> (độ trễ truy vấn báo cáo <code>&lt;100ms</code>).</li>
+        <li>Triển khai <b>Redis</b> cho Cache-Aside, hàng đợi bất đồng bộ (Message Queues) và Distributed Locks chống race condition.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>🐳 Cloud, Containers &amp; Delivery</h3>
+      <h3><code>04</code> · Hạ tầng Cloud, Storage &amp; Vận hành</h3>
       <ul>
-        <li>Containerizing multi-service environments with <b>Docker &amp; Docker Compose</b> for reproducible deployments.</li>
-        <li>Configuring <b>NGINX</b> reverse proxies, SSL termination, load balancing, and cloud hosting on <b>AWS</b>.</li>
-        <li>Proactive problem-solving, structured code reviews, and clear technical documentation.</li>
+        <li>Đóng gói môi trường đa dịch vụ với <b>Docker</b>, quản trị <b>Linux</b>, cấu hình <b>NGINX</b> reverse proxy &amp; cân bằng tải trên <b>AWS</b>.</li>
+        <li>Quản lý lưu trữ phân tán (<b>Storage</b>) và tự động hóa quy trình làm việc doanh nghiệp với <b>GG Workspace</b>.</li>
       </ul>
     </td>
   </tr>
@@ -180,10 +156,10 @@ engineer_profile:
 
 <div align="center">
 
-### 📝 Explore my technical articles & system design notes at [**toannguyenit.com**](https://toannguyenit.com/)
-
-*“Clean architecture gives software its backbone; AI Vibecoding gives engineering its wings.”* ✨
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:8b5cf6,100:ec4899&height=110&section=footer" width="100%" alt="3D Wave Footer" />
+```text
++--------------------------------------------------------------------------------------------------+
+|  >_ toannguyenit  ·  https://toannguyenit.com/  ·  ARCHITECT WITH PRECISION, SHIP WITH AI        |
++--------------------------------------------------------------------------------------------------+
+```
 
 </div>

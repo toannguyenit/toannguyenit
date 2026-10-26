@@ -1,0 +1,304 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" height="100%">
+  <defs>
+    <!-- ascii-reveal Core Palette & Gradients -->
+    <linearGradient id="bgCarbon" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#08080a" />
+      <stop offset="100%" stop-color="#0b0b0e" />
+    </linearGradient>
+
+    <!-- ascii-reveal Signature ".aura" Gradient -->
+    <linearGradient id="auraGrad" x1="0%" y1="0%" x2="100%" y2="25%">
+      <stop offset="0%" stop-color="#f1e9df" />
+      <stop offset="42%" stop-color="#d9b3c3" />
+      <stop offset="74%" stop-color="#9c6c84" />
+      <stop offset="100%" stop-color="#8f97ad" />
+    </linearGradient>
+
+    <!-- Subtle Ambient Aura behind 3D Monument -->
+    <radialGradient id="subtleAura" cx="72%" cy="54%" r="44%">
+      <stop offset="0%" stop-color="#9c6c84" stop-opacity="0.16" />
+      <stop offset="45%" stop-color="#5b8cff" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#08080a" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- 3D Architectural Monochrome Slab Gradients -->
+    <linearGradient id="slabTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#23232b" />
+      <stop offset="100%" stop-color="#141419" />
+    </linearGradient>
+    <linearGradient id="slabTopHi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2e2e38" />
+      <stop offset="100%" stop-color="#191920" />
+    </linearGradient>
+    <linearGradient id="slabLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#15151b" />
+      <stop offset="100%" stop-color="#0b0b0e" />
+    </linearGradient>
+    <linearGradient id="slabRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f0f14" />
+      <stop offset="100%" stop-color="#070709" />
+    </linearGradient>
+
+    <!-- Glass Card Specular sheen -->
+    <linearGradient id="glassSheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12" />
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05" />
+    </linearGradient>
+
+    <filter id="deepShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="16" flood-color="#000000" flood-opacity="0.75" />
+    </filter>
+  </defs>
+
+  <style>
+    .sans { font-family: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .mono { font-family: 'Geist Mono', 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+
+    @keyframes float3D_A {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes float3D_B {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    @keyframes float3D_C {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(8px); }
+    }
+    @keyframes asciiFlicker1 {
+      0%, 100% { opacity: 0.22; }
+      50% { opacity: 0.65; }
+    }
+    @keyframes asciiFlicker2 {
+      0%, 100% { opacity: 0.65; }
+      50% { opacity: 0.18; }
+    }
+    @keyframes scanDecode {
+      0% { transform: translateY(-140px); opacity: 0; }
+      20% { opacity: 0.85; }
+      80% { opacity: 0.85; }
+      100% { transform: translateY(150px); opacity: 0; }
+    }
+
+    .layer-top { animation: float3D_A 5s ease-in-out infinite; }
+    .layer-mid { animation: float3D_B 5s ease-in-out infinite 0.5s; }
+    .layer-orb { animation: float3D_C 4.2s ease-in-out infinite 0.9s; }
+    .ascii-1 { animation: asciiFlicker1 2.8s steps(3, end) infinite; }
+    .ascii-2 { animation: asciiFlicker2 3.4s steps(4, end) infinite; }
+    .decode-bar { animation: scanDecode 4.8s cubic-bezier(0.4, 0, 0.2, 1) infinite; }
+  </style>
+
+  <!-- Base Carbon Canvas -->
+  <rect width="960" height="520" rx="16" fill="url(#bgCarbon)" />
+  <rect width="960" height="520" rx="16" fill="url(#subtleAura)" />
+
+  <!-- Outer Architectural Frame (1px hairline) -->
+  <rect x="24" y="16" width="912" height="488" fill="none" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1" />
+  <!-- Nav Bottom Divider -->
+  <line x1="24" y1="68" x2="936" y2="68" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1" />
+  <!-- Bottom Footer Divider -->
+  <line x1="24" y1="458" x2="936" y2="458" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1" />
+  <!-- Vertical Split Hairline -->
+  <line x1="488" y1="68" x2="488" y2="458" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1" stroke-dasharray="4 4" />
+
+  <!-- Corner Crosshair '+' Marks (ascii-reveal signature) -->
+  <g stroke="#ffffff" stroke-opacity="0.32" stroke-width="1">
+    <!-- Top-Left (24, 68) -->
+    <line x1="18" y1="68" x2="30" y2="68" /><line x1="24" y1="62" x2="24" y2="74" />
+    <!-- Top-Right (936, 68) -->
+    <line x1="930" y1="68" x2="942" y2="68" /><line x1="936" y1="62" x2="936" y2="74" />
+    <!-- Mid-Top (488, 68) -->
+    <line x1="482" y1="68" x2="494" y2="68" /><line x1="488" y1="62" x2="488" y2="74" />
+    <!-- Bottom-Left (24, 458) -->
+    <line x1="18" y1="458" x2="30" y2="458" /><line x1="24" y1="452" x2="24" y2="464" />
+    <!-- Bottom-Right (936, 458) -->
+    <line x1="930" y1="458" x2="942" y2="458" /><line x1="936" y1="452" x2="936" y2="464" />
+    <!-- Mid-Bottom (488, 458) -->
+    <line x1="482" y1="458" x2="494" y2="458" /><line x1="488" y1="452" x2="488" y2="464" />
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- TOP NAVIGATION BAR (ascii-reveal .nav)                    -->
+  <!-- ========================================================= -->
+  <g transform="translate(48, 32)">
+    <!-- Brand Mark -->
+    <rect x="0" y="0" width="20" height="20" rx="5" fill="#18181f" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1" />
+    <text x="10" y="14" text-anchor="middle" fill="#ededef" font-size="11" font-weight="600" class="mono">&gt;_</text>
+    <text x="30" y="15" fill="#ededef" font-size="14" font-weight="600" letter-spacing="-0.2" class="mono">toannguyenit</text>
+
+    <!-- Version Badge -->
+    <rect x="145" y="1" width="118" height="19" rx="9.5" fill="none" stroke="#ffffff" stroke-opacity="0.1" />
+    <text x="204" y="14" text-anchor="middle" fill="#a3a3ac" font-size="10.5" font-weight="500" class="mono">HCM, VIETNAM</text>
+
+    <!-- Right Status Pill -->
+    <g transform="translate(684, -2)">
+      <rect x="0" y="0" width="180" height="24" rx="12" fill="#14141a" stroke="#ffffff" stroke-opacity="0.12" />
+      <circle cx="14" cy="12" r="3.5" fill="#3dd68c" />
+      <text x="25" y="16" fill="#ededef" font-size="11.5" font-weight="500" class="mono">toannguyenit.com</text>
+    </g>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- LEFT COLUMN: HERO EDITORIAL & TELEMETRY COPY              -->
+  <!-- ========================================================= -->
+  <g transform="translate(52, 102)">
+    <!-- Eyebrow Glass Pill (.pill) -->
+    <rect x="0" y="0" width="356" height="28" rx="14" fill="#14141a" stroke="#ffffff" stroke-opacity="0.12" />
+    <rect x="5" y="4" width="112" height="20" rx="10" fill="#ffffff" fill-opacity="0.09" />
+    <text x="61" y="18" text-anchor="middle" fill="#ededef" font-size="11" font-weight="600" class="mono">1+ YR VIBECODE</text>
+    <text x="128" y="18" fill="#a3a3ac" font-size="11.5" font-weight="500" class="mono">Claude · Codex · Antigravity</text>
+
+    <!-- Main Display H1 -->
+    <text x="0" y="76" fill="#ededef" font-size="48" font-weight="600" letter-spacing="-1.8" class="sans">
+      toannguyenit
+    </text>
+    <text x="0" y="124" fill="url(#auraGrad)" font-size="40" font-weight="600" letter-spacing="-1.5" class="sans">
+      Backend &amp; AI-Native
+    </text>
+    <text x="0" y="168" fill="#ededef" font-size="40" font-weight="600" letter-spacing="-1.5" class="sans">
+      System Architect.
+    </text>
+
+    <!-- Lede Paragraph (.lede) -->
+    <text x="0" y="206" fill="#a3a3ac" font-size="14.5" font-weight="400" class="sans">
+      Building enterprise ecosystems across <tspan fill="#ededef" font-weight="500">Web, Mobile &amp; Desktop</tspan>
+    </text>
+    <text x="0" y="228" fill="#a3a3ac" font-size="14.5" font-weight="400" class="sans">
+      <tspan fill="#ededef" font-weight="500">(Cloud &amp; LAN)</tspan> with high-throughput <tspan fill="#7ee2b8" class="mono" font-size="13.5">Go</tspan> &amp; <tspan fill="#7cc4ff" class="mono" font-size="13.5">Java Spring Boot</tspan>,
+    </text>
+    <text x="0" y="250" fill="#a3a3ac" font-size="14.5" font-weight="400" class="sans">
+      accelerated by multi-agent AI Vibecoding orchestration.
+    </text>
+
+    <!-- Action Bar (.actions: Primary Solid CTA + Dark Code Pill) -->
+    <g transform="translate(0, 276)">
+      <!-- Solid Button -->
+      <rect x="0" y="0" width="138" height="38" rx="19" fill="#ededef" />
+      <text x="69" y="24" text-anchor="middle" fill="#08080a" font-size="13" font-weight="600" class="sans">3.5x Velocity ↗</text>
+
+      <!-- Dark Glass Command Pill -->
+      <rect x="148" y="0" width="262" height="38" rx="19" fill="#121217" stroke="#ffffff" stroke-opacity="0.12" />
+      <text x="164" y="23" fill="#878791" font-size="12" class="mono">$</text>
+      <text x="178" y="23" fill="#ededef" font-size="12" font-weight="500" class="mono">vibecode --mode=enterprise</text>
+    </g>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- RIGHT COLUMN: MASSIVE 3D ISOMETRIC ASCII-DECODED MONUMENT -->
+  <!-- ========================================================= -->
+  <g transform="translate(505, 78)">
+    <!-- Background ASCII Character Decoding Grid -->
+    <g font-size="11.5" class="mono" fill="#ffffff" fill-opacity="0.13" letter-spacing="3">
+      <text x="12" y="24" class="ascii-1">+ · · : : ░ ▒ ▓ █ ▓ ▒ ░ : : · · + · : ░ ▒</text>
+      <text x="12" y="44" class="ascii-2">· : ░ ▒ ▓ # @ @ # ▓ ▒ ░ · · : ; + * # @ ▓</text>
+      <text x="12" y="64" class="ascii-1">: ░ ▒ # _ t o a n n g u y e n i t _ # ▒ ░</text>
+      <text x="12" y="84" class="ascii-2">░ ▒ ▓ [ C L A U D E : : C O D E X ] ▓ ▒ ░</text>
+      <text x="12" y="104" class="ascii-1">▒ ▓ █ { A N T I G R A V I T Y _ 3 D } █ ▓</text>
+      <text x="12" y="290" class="ascii-2">· : ; + * # ░ ▒ ▓ █ ▓ ▒ ░ # * + ; : · + :</text>
+      <text x="12" y="310" class="ascii-1">+ · : 0 1 0 1 _ G O _ J A V A _ R E D I S</text>
+      <text x="12" y="330" class="ascii-2">░ ▒ ▓ █ C L O U D _ &amp; _ L A N _ S Y S █ ▓</text>
+      <text x="12" y="350" class="ascii-1">· · : : + + · · : : ░ ▒ ▓ ▒ ░ : : · · + +</text>
+    </g>
+
+    <!-- 3D ISOMETRIC BASE PEDESTAL (MEGA SCALE: 390px wide) -->
+    <g filter="url(#deepShadow)">
+      <!-- Top Face -->
+      <polygon points="210,205 395,272 210,339 25,272" fill="url(#slabTop)" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.2" />
+      <!-- Left Extrusion -->
+      <polygon points="25,272 210,339 210,368 25,301" fill="url(#slabLeft)" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1" />
+      <!-- Right Extrusion -->
+      <polygon points="395,272 210,339 210,368 395,301" fill="url(#slabRight)" stroke="#ffffff" stroke-opacity="0.08" stroke-width="1" />
+      <!-- Pedestal Telemetry Label -->
+      <text x="210" y="268" text-anchor="middle" fill="#a3a3ac" font-size="11.5" font-weight="500" letter-spacing="1.5" class="mono">
+        POSTGRESQL · REDIS · DOCKER · AWS · LINUX
+      </text>
+      <text x="210" y="288" text-anchor="middle" fill="#7ee2b8" font-size="11" font-weight="600" letter-spacing="1" class="mono">
+        [ TIER 03 // CLOUD &amp; LAN INFRASTRUCTURE ]
+      </text>
+    </g>
+
+    <!-- 3D ISOMETRIC MIDDLE VOLUME: BACKEND & MULTI-PLATFORM CORE -->
+    <g class="layer-mid" filter="url(#deepShadow)">
+      <!-- Top Face -->
+      <polygon points="210,126 375,186 210,246 45,186" fill="url(#slabTopHi)" stroke="#ffffff" stroke-opacity="0.28" stroke-width="1.2" />
+      <!-- Left Extrusion -->
+      <polygon points="45,186 210,246 210,278 45,218" fill="url(#slabLeft)" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1" />
+      <!-- Right Extrusion -->
+      <polygon points="375,186 210,246 210,278 375,218" fill="url(#slabRight)" stroke="#ffffff" stroke-opacity="0.1" stroke-width="1" />
+      <!-- Surface Content -->
+      <text x="210" y="182" text-anchor="middle" fill="#ededef" font-size="13" font-weight="600" letter-spacing="1.2" class="mono">
+        GO · JAVA SPRING BOOT · REACT · NEXT.JS
+      </text>
+      <text x="210" y="202" text-anchor="middle" fill="#7cc4ff" font-size="11" font-weight="500" letter-spacing="1" class="mono">
+        [ TIER 02 // WEB · MOBILE · DESKTOP CORE ]
+      </text>
+      <!-- Left Bevel Status LEDs -->
+      <circle cx="72" cy="210" r="3" fill="#3dd68c" />
+      <circle cx="84" cy="214" r="3" fill="#5b8cff" />
+      <circle cx="96" cy="218" r="3" fill="#f5c27a" />
+    </g>
+
+    <!-- 3D ISOMETRIC TOP CROWN: AI VIBECODING MONOLITH -->
+    <g class="layer-top" filter="url(#deepShadow)">
+      <!-- Top Face -->
+      <polygon points="210,36 350,88 210,140 70,88" fill="url(#slabTopHi)" stroke="#ededef" stroke-opacity="0.45" stroke-width="1.5" />
+      <!-- Left Extrusion -->
+      <polygon points="70,88 210,140 210,182 70,130" fill="#181820" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1" />
+      <!-- Right Extrusion -->
+      <polygon points="350,88 210,140 210,182 350,130" fill="#101016" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1" />
+
+      <!-- Inner ASCII Grid Frame on Crown -->
+      <polygon points="210,46 330,88 210,130 90,88" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-dasharray="3 3" />
+
+      <text x="210" y="84" text-anchor="middle" fill="#ededef" font-size="14" font-weight="600" letter-spacing="1.5" class="mono">
+        CLAUDE · CODEX · ANTIGRAVITY
+      </text>
+      <text x="210" y="104" text-anchor="middle" fill="#ff8fb7" font-size="11" font-weight="600" letter-spacing="1.2" class="mono">
+        [ TIER 01 // 1+ YR AI VIBECODING ENGINE ]
+      </text>
+
+      <!-- Left Face ASCII Telemetry -->
+      <text x="92" y="128" fill="#878791" font-size="10" class="mono" transform="skewY(20)">▓▒░ AI_CORE: OK</text>
+      <!-- Right Face ASCII Telemetry -->
+      <text x="232" y="176" fill="#3dd68c" font-size="10" class="mono" transform="skewY(-20)">AGENTS: ACTIVE ░▒</text>
+    </g>
+
+    <!-- Floating Satellite 3D Node Left -->
+    <g class="layer-orb" transform="translate(8, 92)">
+      <rect x="0" y="0" width="82" height="36" rx="8" fill="#121217" stroke="#ffffff" stroke-opacity="0.18" />
+      <text x="41" y="15" text-anchor="middle" fill="#f5c27a" font-size="10" font-weight="600" class="mono">CLAUDE</text>
+      <text x="41" y="28" text-anchor="middle" fill="#878791" font-size="9.5" class="mono">ARCHITECT</text>
+    </g>
+
+    <!-- Floating Satellite 3D Node Right -->
+    <g class="layer-orb" transform="translate(332, 92)">
+      <rect x="0" y="0" width="82" height="36" rx="8" fill="#121217" stroke="#ffffff" stroke-opacity="0.18" />
+      <text x="41" y="15" text-anchor="middle" fill="#7ee2b8" font-size="10" font-weight="600" class="mono">CODEX</text>
+      <text x="41" y="28" text-anchor="middle" fill="#878791" font-size="9.5" class="mono">VELOCITY</text>
+    </g>
+
+    <!-- Animated Horizontal ASCII Decode Scanline -->
+    <g class="decode-bar">
+      <line x1="20" y1="185" x2="400" y2="185" stroke="#ededef" stroke-opacity="0.45" stroke-width="1" stroke-dasharray="6 4" />
+      <rect x="155" y="175" width="110" height="18" rx="4" fill="#08080a" stroke="#ffffff" stroke-opacity="0.25" />
+      <text x="210" y="188" text-anchor="middle" fill="#3dd68c" font-size="10" font-weight="600" class="mono">▓▒░ DECODING ░▒▓</text>
+    </g>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- BOTTOM TELEMETRY FOOTER BAR (.foot)                       -->
+  <!-- ========================================================= -->
+  <g transform="translate(48, 486)" font-size="12" class="mono" fill="#878791">
+    <text x="0" y="0">
+      <tspan fill="#3dd68c">●</tspan> ECOSYSTEM: <tspan fill="#ededef">WEB · MOBILE · DESKTOP (CLOUD &amp; LAN)</tspan>
+    </text>
+    <text x="440" y="0">
+      STACK: <tspan fill="#ededef">GO · JAVA · SPRING BOOT · REACT · NEXT.JS</tspan>
+    </text>
+    <text x="864" y="0" text-anchor="end" fill="#a3a3ac">
+      [ASCII-3D // v2.0]
+    </text>
+  </g>
+</svg>
