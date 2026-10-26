@@ -2,7 +2,7 @@
 
 <!-- 3D Isometric Animated Hero Stage -->
 <a href="https://toannguyenit.com/">
-  <img src="./assets/hero-3d.svg" alt="toannguyenit - 3D Hero Banner" width="100%" />
+  <img src="./assets/hero-banner-3d.svg" alt="toannguyenit - 3D Hero Banner" width="100%" />
 </a>
 
 <br />
