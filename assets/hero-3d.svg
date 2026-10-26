@@ -222,14 +222,14 @@
     </g>
 
     <!-- 3D Extruded Main Name Shadow + Highlight -->
-    <text x="3" y="99" fill="#020617" font-size="44" font-weight="900" letter-spacing="1.5" class="font-main">
-      NGUYỄN VÕ SONG TOÀN
+    <text x="3" y="99" fill="#020617" font-size="48" font-weight="900" letter-spacing="3" class="font-mono">
+      toannguyenit
     </text>
-    <text x="1.5" y="97.5" fill="#0284c7" font-size="44" font-weight="900" letter-spacing="1.5" class="font-main" opacity="0.65">
-      NGUYỄN VÕ SONG TOÀN
+    <text x="1.5" y="97.5" fill="#0284c7" font-size="48" font-weight="900" letter-spacing="3" class="font-mono" opacity="0.65">
+      toannguyenit
     </text>
-    <text x="0" y="96" fill="url(#titleGrad)" font-size="44" font-weight="900" letter-spacing="1.5" class="font-main" filter="url(#neonGlow)">
-      NGUYỄN VÕ SONG TOÀN
+    <text x="0" y="96" fill="url(#titleGrad)" font-size="48" font-weight="900" letter-spacing="3" class="font-mono" filter="url(#neonGlow)">
+      toannguyenit
     </text>
 
     <!-- Role Subtitle -->

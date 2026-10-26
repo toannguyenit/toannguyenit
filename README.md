@@ -2,7 +2,7 @@
 
 <!-- 3D Isometric Animated Hero Stage -->
 <a href="https://toannguyenit.com/">
-  <img src="./assets/hero-3d.svg" alt="Nguyễn Võ Song Toàn - 3D Hero Banner" width="100%" />
+  <img src="./assets/hero-3d.svg" alt="toannguyenit - 3D Hero Banner" width="100%" />
 </a>
 
 <br />
@@ -43,7 +43,7 @@ I am a results-driven **Software Engineer** specializing in high-performance bac
 
 ```yaml
 engineer_profile:
-  name: "Nguyễn Võ Song Toàn"
+  name: "toannguyenit"
   location: "Ho Chi Minh City, Vietnam 🇻🇳"
   website: "https://toannguyenit.com/"
   core_focus:
