@@ -52,16 +52,16 @@ I am a results-driven **Software Engineer** specializing in high-performance bac
 ## 🧊 AI-Native Vibecoding Ecosystem (1+ Year Experience)
 
 <div align="center">
-  <img src="./assets/vibecode-3d-clean.svg" alt="3D Multi-Agent Vibecoding Ecosystem - Claude, Codex, Antigravity" width="100%" />
+  <img src="./assets/vibecode-3d-official.svg" alt="3D Multi-Agent Vibecoding Ecosystem - Claude, Codex, Antigravity" width="100%" />
 </div>
 
 <br />
 
 | Agent Engine | Experience | Production Vibecoding Role | Measured Impact |
 | :--- | :---: | :--- | :--- |
-| **🟠 Claude (Anthropic)** | `1+ Year` | **System Architect & Deep Reasoning:** Domain-Driven Design (DDD), relational schema modeling, complex SQL/GORM optimization, and concurrency/security auditing. | **95% Spec Accuracy** — eliminates architectural bottlenecks early. |
-| **🟢 OpenAI Codex** | `1+ Year` | **Velocity & Test Synthesis Engine:** Rapid scaffolding of REST/gRPC APIs, DTOs, automated Unit/Integration test suites, Dockerfiles, and multi-repo bug triage. | **4.0x Faster Scaffolding** & high-coverage automated verification. |
-| **🔵 Google Antigravity** | `1+ Year` | **Autonomous Multi-Agent Orchestrator:** End-to-end feature execution across backend, frontend, terminal, and browser using custom `SKILL.md` modules, rules, and MCP tools. | **10x Agentic Workflow** across Web, Mobile, and Desktop repositories. |
+| <img src="./assets/icons/claude-icon.svg" width="24" height="24" align="absmiddle" alt="Claude" /> &nbsp;**Claude (Anthropic)** | `1+ Year` | **System Architect & Deep Reasoning:** Domain-Driven Design (DDD), relational schema modeling, complex SQL/GORM optimization, and concurrency/security auditing. | **95% Spec Accuracy** — eliminates architectural bottlenecks early. |
+| <img src="./assets/icons/openai-codex-icon.svg" width="24" height="24" align="absmiddle" alt="OpenAI Codex" /> &nbsp;**OpenAI Codex** | `1+ Year` | **Velocity & Test Synthesis Engine:** Rapid scaffolding of REST/gRPC APIs, DTOs, automated Unit/Integration test suites, Dockerfiles, and multi-repo bug triage. | **4.0x Faster Scaffolding** & high-coverage automated verification. |
+| <img src="./assets/icons/antigravity-icon.svg" width="24" height="24" align="absmiddle" alt="Google Antigravity" /> &nbsp;**Google Antigravity** | `1+ Year` | **Autonomous Multi-Agent Orchestrator:** End-to-end feature execution across backend, frontend, terminal, and browser using custom `SKILL.md` modules, rules, and MCP tools. | **10x Agentic Workflow** across Web, Mobile, and Desktop repositories. |
 
 ---
 
