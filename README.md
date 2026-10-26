@@ -95,7 +95,7 @@ engineer_profile:
 ## ⚡ 3D System Architecture & Interactive Tech Arsenal
 
 <div align="center">
-  <img src="./assets/architecture-3d.svg" alt="3D 4-Tier System Architecture" width="100%" />
+  <img src="./assets/system-architecture-3d.svg" alt="3D 4-Tier System Architecture" width="100%" />
 </div>
 
 <br />
@@ -105,9 +105,9 @@ engineer_profile:
 | Domain Layer | Interactive Tech Icons | Key Technologies & Ecosystem |
 | :--- | :---: | :--- |
 | **☕ Languages & Core** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=java,go,php,py,ts,js&theme=dark" alt="Languages" /></a> | `Java` • `Go (Golang)` • `PHP` • `Python` • `TypeScript` • `JavaScript` |
-| **🚀 Backend & Frontend Frameworks** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=spring,laravel,nestjs,react,nextjs,vue&theme=dark" alt="Frameworks" /></a> | `Spring Boot` • `Laravel` • `NestJS` • `React` • `Next.js` • `Vue.js` |
+| **🚀 Frameworks & Libraries** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=spring,laravel,nestjs,react,nextjs,vue,tailwind&theme=dark" alt="Frameworks" /></a> | `Spring Boot` • `Laravel` • `NestJS` • `React` • `Next.js` • `Vue.js` • `Tailwind CSS` |
 | **🗄️ Databases & High-Speed Cache** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" alt="Databases" /></a> | `PostgreSQL` • `MySQL` • `MongoDB` • `Redis` |
-| **☁️ DevOps, Cloud & Tooling** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,aws,nginx,git,linux,postman&theme=dark" alt="DevOps" /></a> | `Docker` • `AWS` • `NGINX` • `Git` • `Linux` • `Postman` |
+| **☁️ DevOps, Cloud & Tooling** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=docker,aws,nginx,linux,gcp&theme=dark" alt="DevOps" /></a> | `Docker` • `AWS` • `NGINX` • `Linux` • `Storage` • `GG Workspace` |
 
 <br />
 
@@ -115,7 +115,7 @@ engineer_profile:
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,go,php,py,ts,js,spring,laravel,nestjs,react,nextjs,vue,tailwind,postgres,mysql,mongodb,redis,docker,aws,nginx,git,github,linux,figma&theme=dark&perline=8" alt="Full Skills Grid" />
+    <img src="https://skillicons.dev/icons?i=java,go,php,py,ts,js,spring,laravel,nestjs,react,nextjs,vue,tailwind,postgres,mysql,mongodb,redis,docker,aws,nginx,linux,gcp&theme=dark&perline=8" alt="Full Skills Grid" />
   </a>
 </p>
 

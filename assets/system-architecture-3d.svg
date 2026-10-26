@@ -97,8 +97,8 @@
 
       <!-- Tier 04 -->
       <rect x="0" y="204" width="380" height="54" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" />
-      <text x="16" y="226" fill="#fde68a" font-size="13" font-weight="800" class="font-mono">04 // DATA, CACHE &amp; CLOUD INFRA</text>
-      <text x="16" y="245" fill="#cbd5e1" font-size="12" class="font-main">PostgreSQL • MySQL • MongoDB • Redis • Docker • AWS</text>
+      <text x="16" y="226" fill="#fde68a" font-size="13" font-weight="800" class="font-mono">04 // DATA, CLOUD, STORAGE &amp; WORKSPACE</text>
+      <text x="16" y="245" fill="#cbd5e1" font-size="11.5" class="font-main">Postgres • Redis • Docker • AWS • Linux • Storage • GG Workspace</text>
     </g>
   </g>
 
@@ -112,11 +112,11 @@
       <polygon points="340,265 620,335 340,405 60,335" fill="url(#planeDbTop)" stroke="#f59e0b" stroke-width="2" />
       <polygon points="60,335 340,405 340,422 60,352" fill="#92400e" />
       <polygon points="620,335 340,405 340,422 620,352" fill="#451a03" />
-      <text x="340" y="332" text-anchor="middle" fill="#fef3c7" font-size="15" font-weight="900" letter-spacing="1.2" class="font-mono">
-        POSTGRESQL • REDIS • DOCKER • AWS • NGINX
+      <text x="340" y="332" text-anchor="middle" fill="#fef3c7" font-size="13.5" font-weight="900" letter-spacing="1" class="font-mono">
+        POSTGRES • REDIS • DOCKER • AWS • STORAGE • GG WORKSPACE
       </text>
       <text x="340" y="354" text-anchor="middle" fill="#fcd34d" font-size="11" font-weight="700" class="font-mono">
-        [ TIER 04: DISTRIBUTED PERSISTENCE &amp; CONTAINERS ]
+        [ TIER 04: DATA, LINUX, CLOUD STORAGE &amp; WORKSPACE ]
       </text>
     </g>
 
